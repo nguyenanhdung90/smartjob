@@ -1,5 +1,22 @@
 ﻿<?php
+define ( 'TEMPLATEURL', get_bloginfo('template_url') );
+// change this to 'production' when publishing the theme, to use minified scripts & styles instead
+define ( 'ENGINE_ENVIRONMENT', 'development' );
+define ( 'ENV_PRODUCTION', false );
 
+define("ET_UPDATE_PATH",    "http://www.enginethemes.com/forums/?do=product-update");
+define("ET_VERSION", '2.9.8');
+
+define("ET_ADDTHIS_API", 'ra-4e20665e3a59616c');
+
+if(!defined('ET_URL'))
+	define('ET_URL', 'http://www.enginethemes.com/');
+
+if(!defined('ET_CONTENT_DIR'))
+	define('ET_CONTENT_DIR', WP_CONTENT_DIR.'/et-content/');
+
+if(!defined('ET_LANGUAGE_PATH') )
+	define('ET_LANGUAGE_PATH', WP_CONTENT_DIR.'/et-content/lang/');
 
 require_once TEMPLATEPATH . '/includes/index.php';
 require_once TEMPLATEPATH . '/includes/exception.php';
