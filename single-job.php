@@ -187,7 +187,7 @@ if(have_posts()) { the_post ();
 							<div title="<?php echo $tooltip ?>" class="job-location" id="job_location">
 								<span itemprop="jobLocation" itemscope itemtype="http://schema.org/Place" class="ob-location">
 			         				<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-			         				<span itemprop="addressLocality"><?php echo $job_location;echo "v"; ?></span>
+			         				<span itemprop="addressLocality"><?php echo $job_location; ?></span>
 			          				</span>
 			        			</span>
 
@@ -326,7 +326,7 @@ if(have_posts()) { the_post ();
 									<a target="_blank" title="View more details of <?php the_title(); ?>" href="<?php the_permalink();?>" class="title-link title">
 									<?php the_title(); ?>	</a>
 								</h2>						
-								<a title="View more details in new window tab" href="http://smartjob.vn/job/tuyen-02-nhan-vien-oracle-database/" class="title-link title new-tab-icon" target="_blank">
+								<a title="View more details in new window tab" href="<?php the_permalink();?>" class="title-link title new-tab-icon" target="_blank">
 								    <span data-icon="R" class="icon"></span>
 								</a>
 							    <div class="desc f-left-all">
@@ -348,13 +348,7 @@ if(have_posts()) { the_post ();
 									}
 									?>
 									</div>
-									<div class="job-type color-26" itemprop="employmentType">
-										 <span class="flag"></span>
-										<a title="View all posted jobs in Fulltime" href="#">
-											<?php
-                                                $fulltime=get_the_terms( $post->ID, 'job_type' );echo $fulltime[0]->name;
-											?>					</a>
-									</div>		
+	
 									<div>
 										<span class="icon" data-icon="@"></span>
 										<span itemprop="jobLocation" itemscope itemtype="http://schema.org/Place" class="ob-location">
@@ -371,15 +365,11 @@ if(have_posts()) { the_post ();
 									<div>
 										<span class="ob-location" itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation">
 											<?php 
-											$fields = JEP_Field::get_all_fields();
-											foreach ($fields as $field) {
-											$value = get_post_meta( get_the_ID(), 'cfield-'. $field->ID, true );
+											$value = get_post_meta( get_the_ID(), 'cfield-592', true );
 											?>
-											<span itemprop="addressLocality"><?php echo $field->name;?>:</span>
+											<span itemprop="addressLocality">Salary:</span>
 											<span itemprop="addressLocality" style="color:#F0111B"><?php echo $value;?> </span>
-											<?php
-											}
-											?>
+
 										</span>
 									</div>
 							    </div>
@@ -415,7 +405,7 @@ if(have_posts()) { the_post ();
 					}
 					?>
 					</ul>
-			    </div>				
+			    </div>					
 			</div>
 			<?php get_sidebar() ?>
 			<div class="clearfix"></div>			

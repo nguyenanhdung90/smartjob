@@ -5,27 +5,67 @@ get_header(); ?>
 
 <div class="heading">
 	<div class="main-center">
-		<h1 class="title"><?php _e("Resumes",ET_DOMAIN);?></h1>
+		<h1 class="title"><?php// _e("Resumes",ET_DOMAIN);?></h1>
 	</div>
 </div>
 
-<div class="wrapper jobseeker">
+<div class="wrapper jobseeker" style="padding-bottom:0px">
+<!--
+	<div class="heading" style="margin-top: 24px;">
+				<div class="main-center">
+					<h1 style="font-weight: 500;" class="title">Resume</h1>
+				</div>
+	</div> -->
 	<div class="header-content">
-		<div class="main-center">
-			<div class="desc headline">
-							<h6>SMARTJOB RESUME</h6> <p>A strong resume help you stand out from the crowd.<br>Learn how to craft one that makes you look your best.</p>		
+		<div class="main-center" style="overflow:hidden">
+			<div class="desc headline" >
+			    <h2 style="text-align: center; font-weight: normal; color: rgb(51, 51, 51); margin-bottom: 14px; letter-spacing: 0px;">Steps for Job Seekers</h2>
+				<h6 style="text-align: center; color: rgb(51, 51, 51); font-weight: normal; font-size: 16px; margin: 0px auto; line-height: 24px; width: 345px;">Creating a personal profile is very simple</h6>
+				<h6 style="text-align: center; color: rgb(51, 51, 51); font-weight: normal; font-size: 16px; margin: 0px auto; line-height: 24px; width: 403px;">and fast,please click on the create a resumer now.</h6>
+				<h6 style="text-align:center;margin-top:12px;margin-bottom:29px"><img style="max-width:100%" src="<?php bloginfo('stylesheet_directory');?>/img/sodo-resume.png"></h6>
+			</div>
+			<!--
+			<div class="desc headline" >
+			<a href="http://smartjob.vn/create-a-resume/">
+			<img src="<?php // bloginfo('stylesheet_directory');?>/img/company_seeker.jpg">
+			</a>
+			</div>
+			-->
+			<!--
+			<div class="desc headline" style="float:left;padding-left:52px">
+                            <p style="color:#221f20;font-size:18px;font-weight:500" >If you are company</p>	 
+							<p style="color:#221f20;font-size:18px;font-weight:500" >Please contact with us to get more infomation about resumes.</p>	
+							<p style="color:#f0111b;font-size:15px;font-weight:500">(+84) 04 – 62944447<br>contact@smartjob.vn</p>
 				<?php
 				//$option	=	JE_Resume_Options::get_instance ();
 				//printf( apply_filters('je_resume_headline', $option->et_jobseeker_headline ) ); ?>
 			</div>
+			-->
+
+			<!--
+			<div class="desc headline" style="float:left;padding-left:52px">
+                            <p style="color:#221f20;font-size:18px;font-weight:500" >If you are Jobseeker</p>	 
+							<p style="color:#221f20;font-size:18px;font-weight:500" >Please click to create your resumes <a href="http://smartjob.vn/create-a-resume/"> Create your resume </a>.</p>							
+			</div>
+			-->
 		</div>
 	</div>
+	<div class="header-content" style="background-color: #f8f8f8;padding-bottom:35px">
+		<div class="main-center" style="overflow:hidden">
+			<div class="desc headline" >
+			    <h2 style="text-align: center; font-weight: normal; color: rgb(51, 51, 51); letter-spacing: 0px;margin-bottom:11px">Employers choose  resume and contact</h2>
+				<h6 style="text-align: center; color: rgb(51, 51, 51); font-weight: normal; font-size: 16px;">Take a look  at resumes to choose the most suitable resume with your company,and you will have the information to contact.</h6>
+				<h6 style="text-align:center;margin-top:12px"><img style="max-width:100%" src="<?php bloginfo('stylesheet_directory');?>/img/search-comp.png"></h6>
+			</div>
+	
+		</div>
+	</div>
+	<?php if(current_user_can( 'manage_options' )) { ?>	
 	<div id="archive_resumes" class="main-center clearfix padding-top30">
 
 		<div class="main-column resume-page">
 		<!-- Pending Resumes -->
 			<?php
-			if(current_user_can( 'manage_options' )) {
 				$pending_resume	=	JE_Resume::query_resumes( array('post_status' => array('pending'), 'showposts' => -1));
 
 				if(!empty($pending_resume)) { ?>
@@ -91,12 +131,10 @@ get_header(); ?>
 
 				}
 				wp_reset_query();
-			}
-
 			?>
-				<?php if(current_user_can( 'manage_options' )) { ?>
+
 					<h3 class="main-title"><?php _e("LATEST RESUMES", ET_DOMAIN); ?></h3>
-				<?php } ?>
+
 					<div id="resumes">
 					<ul class="list-jobs job-account-list list-job-resume ">
 						<?php
@@ -159,18 +197,22 @@ get_header(); ?>
 						<?php } 
 					} else {
 						?>
-						<li class="no-job-found"><?php _e("Oops! Sorry, no resumes found.", ET_DOMAIN); ?></li>
+						<li class="no-job-found"><?php _e("", ET_DOMAIN); ?></li>
 						<?php
 					}// end while have posts ?>
 
 					</ul>
 					</div>
+
+
 				<?php if ($wp_query->max_num_pages > 1){ ?>
 				<div class="button-more">
 			 		 <button class="btn-background border-radius"><?php _e('Load more resumes', ET_DOMAIN); ?></button>
 				</div>
 
-				<?php } ?>
+				<?php } 
+
+				?>
 				<script	type="application/json" id="latest_resume_data">
 					<?php echo json_encode($latest_resume); ?>
 				</script>
@@ -188,6 +230,8 @@ get_header(); ?>
 			</div>
 
 	  	</div>
+		<?php } ?>	
+		
 
 	</div>
 </div>

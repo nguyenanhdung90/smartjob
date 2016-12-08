@@ -107,15 +107,10 @@ if(!isset($arrAuthors[$company['id']])){
 			<div>
 					<span class="ob-location" itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation">
 						<?php 
-						$fields = JEP_Field::get_all_fields();
-						foreach ($fields as $field) {
-						$value = get_post_meta( get_the_ID(), 'cfield-'. $field->ID, true );
+						$value = get_post_meta( get_the_ID(), 'cfield-592', true );
 						?>
-						<span itemprop="addressLocality" ><?php echo $field->name;?>:</span>
+						<span itemprop="addressLocality" >Salary:</span>
 						<span itemprop="addressLocality" style="color:#F0111B"><?php echo $value;?> </span>
-						<?php
-						}
-						?>
           			</span>
 
 			</div>

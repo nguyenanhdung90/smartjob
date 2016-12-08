@@ -9,7 +9,7 @@ get_header();
 
 		<div class="heading">
 			<div class="main-center">
-				<h1 class="title"><?php _e("Companies",ET_DOMAIN);?></h1>
+				<h1 class="title" style="font-weight: 500;"><?php _e("Companies",ET_DOMAIN);?></h1>
 			</div>
 		</div>
 		<div class="account-title">

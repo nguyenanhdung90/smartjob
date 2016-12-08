@@ -3,84 +3,39 @@
 	$jsUrl	=	$et_global['jsUrl'];
 	$general_opts	=	new ET_GeneralOptions();
 	$arrAuthors	= array();
+
 	get_header();
 ?>
 
-<script>
-$( document ).ready(function() {
-    search_index(1,'');
-});
-function search_index(page,search) {
-	//var t0 = performance.now();
-	    $('html,body').scrollTop(0);
-	    $("#search_loading").show();
-	    $("#result").hide();
-if(search==""){var key = $("#search").val();}else {var key = search;$("#search").val(search);}
-
-        var location = $("#job_location").val();
-        $.post("<?php bloginfo('template_url')?>/search_ajax.php", {key: key,location: location, page:page}, function(result){
-            //$("#result").html(result);
-            document.getElementById("result").innerHTML=result;
-
-			$("#result").show();
-            $("#search_loading").hide();
-        });
-
-/* var t1 = performance.now();
-console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.") */
-}
-
-</script>
 <div class="wrapper clearfix">
+<?php
+	get_template_part( 'template/template' , 'search' );
 
-		<div class="header-filter top-70" id="header-filter" style="position:relative">
-			<div class="main-center f-left-all" style="overflow: hidden;">
-				<div class="keyword" style="font-size: 24px;">
-					SmartJob is Smart Choice !
+	$return_txt = trim(str_replace("&nbsp;", "", strip_tags($general_opts->get_site_demonstration())));
+	if( $return_txt != '') { ?>
+		<div class="header-content">
+			<?php do_action ('et_before_site_demonstation'); ?>
+			<div class="main-center">
+				<div class= "desc headline">
+					<?php echo apply_filters('et_jobengine_demonstration', $general_opts->get_site_demonstration () ); ?>
 				</div>
 			</div>
-				
-			<div class="main-center f-left-all">
-			
-
-						<div class="keyword">
-							<input id="search" type="text" name="s" class="search-box job-searchbox input-search-box border-radius" placeholder="Enter a keyword ..." value="">
-							<span class="icon" data-icon="s"></span>
-						</div>
-						<div class="form-control input-sm location" style="margin-right: 0px;">
-							<select id="job_location" name="job_location2" class="search_province">
-								<option value="2146">All</option>
-								<option value="2147">Hà Nội</option>
-								<option value="2148">Hồ Chí Minh</option>
-								<option value="2149">Đà Nẵng</option>
-								<option value="2150">Other</option>
-							</select>
-							<input type="button" id="search_submit" onclick="search_index(1,'')" value="Search">
-						</div>
-						
-			
-			
-			</div>
-
-			<div class="main-center f-left-all" style="overflow: hidden;">
-				<div class="keyword" style="">
-				   <span style="font-size:16px"> Popular keywords: </span>
-				   <span class="morepolar"><a  href="#" onclick="search_index(1,'java')" class="a_morepola"> Java</a></span>
-				   <span class="morepolar"><a  href="#" onclick="search_index(1,'php')" class="a_morepola"> Php</a></span>		 
-				   <span class="morepolar"><a  href="#" onclick="search_index(1,'ios')" class="a_morepola"> IOS</a></span>		 
-				   <span class="morepolar"><a  href="#" onclick="search_index(1,'android')" class="a_morepola"> Android</a></span>		  
-				   <span class="morepolar"><a  href="#" onclick="search_index(1,'c#')" class="a_morepola"> C#</a></span>		  
-				   <span class="morepolar"><a  href="#" onclick="search_index(1,'net')" class="a_morepola"> Net</a></span>
-				   <span class="morepolar"><a  href="#" onclick="search_index(1,'oracle')" class="a_morepola"> Oracle</a></span>
-				   <span class="morepolar"><a  href="#" onclick="search_index(1,'seo')" class="a_morepola"> SEO</a></span>
-				   <span class="morepolar"><a href="#"  onclick="search_index(1,'mkt online')" class="a_morepola"> MKT Online</a></span>
-				</div>
-			</div>
+			<?php do_action ('et_after_site_demonstation'); ?>
 		</div>
-
+<?php
+	}
+?>
 
 	<div class="main-center clearfix padding-top30">
+		 <?php
+			if(is_active_sidebar('sidebar-home-top')) { ?>
+				<div class="sidebar-home-top <?php if(current_user_can('manage_options') ) echo 'sortable' ?>" id="sidebar-home-top" >
+					<?php
+						dynamic_sidebar('sidebar-home-top');
 
+					?>
+				</div>
+		<?php } ?>
 		<div class="main-column">
 		<!-- Pending Jobs -->
 		<?php
@@ -102,7 +57,9 @@ console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.") */
 				<ul class="list-jobs pending-jobs job-account-list">
 					<?php
 					global $post;
+
 					$pending_jobs	= array();
+
 					while( $pending_job->have_posts() ) { $pending_job->the_post ();
 
 						$job		= et_create_jobs_response($post);
@@ -131,10 +88,10 @@ console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.") */
 							<?php
 								if (!empty($company_logo)){
 									?>
-									<h1><a data="<?php echo $company['ID'];?>" href="<?php echo $company['post_url'];?>"
+									<a data="<?php echo $company['ID'];?>" href="<?php echo $company['post_url'];?>"
 										title="<?php printf(__('View posted jobs by %s', ET_DOMAIN), $company['display_name']) ?>" id="job_author_name">
 										<img src="<?php echo ( isset($company_logo['small_thumb']) && !empty($company_logo['small_thumb']) ) ? $company_logo['small_thumb'][0] : $company_logo['thumbnail'][0]; ?>" id="company_logo_thumb" data="<?php echo $company_logo['attach_id'];?>" />
-									</a></h1>
+									</a>
 									<?php
 								}
 							?>
@@ -190,20 +147,52 @@ console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.") */
 		global $wp_query;
 		wp_reset_query();
 
+		// initial status
+		$list_status	= get_query_var('status');
+		$list_status	= (empty($list_status)) ? 'publish' : $list_status;
+		if ('publish' == $list_status ){
+			$list_title		= __('LATEST JOBS',ET_DOMAIN);
+			$list_status	= 'publish';
+		}
+		else{
+			$list_title		= et_get_job_status_labels( explode(',', $list_status) );
+			$list_status	= 'other';
+		}
 		?>
 
 		<!-- latest job -->
 		<div id="latest_jobs_container">
 			<h3 class="main-title" style="border:none"><?php echo $list_title; ?></h3>
 			<ul class="list-jobs lastest-jobs job-account-list">
-					<div id="search_loading" style="overflow:hidden;width:130px;margin:0 auto">
-					   <img style="margin-top:90px;width:25px" src="<?php bloginfo('template_url')?>/img/loading.gif">
-					</div>
-					
-				<div id="result">
+			<?php
+				global $wp_query;
+				$latest_jobs	= array();
+				while ( have_posts() ) { the_post ();
+					global $job;
+					$job			= et_create_jobs_response($post);
+					$latest_jobs[]	= $job;
 
-				</div>
+					$template_job	= apply_filters( 'et_template_job', '');
+					if( $template_job != '' )
+						load_template( $template_job , false);
+					else {
+						get_template_part( 'template' , 'job' );
+					}
+				}
+				// if no jobs found, display a message
+				// do_action( 'je_after_job_list' , $wp_query );
+				if ( !have_posts() ){
+				?>
+					<li class="no-job-found hide-nojob"><?php _e('Oops! Sorry, no jobs found', ET_DOMAIN) ?></li>
+				<?php
+				}
+			?>
 			</ul>
+
+			<div id ="button-more" class="button-more <?php if ( $wp_query->max_num_pages <= 1 ) { echo 'out'; } ?>" <?php if ( $wp_query->max_num_pages <= 1 ) { echo 'style="display:none"'; }?>>
+			  	<button class="btn-background border-radius"><?php _e('More Jobs', ET_DOMAIN) ?></button>
+			</div>
+
 			<script	type="application/json" id="latest_jobs_data">
 				<?php echo json_encode(array(
 						'status'	=> $list_status,

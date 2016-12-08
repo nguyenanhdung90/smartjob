@@ -29,17 +29,22 @@ if ( is_home() || is_search() || is_post_type_archive('job') || is_tax('job_cate
 					if(current_user_can('manage_options')) _e("This sidebar is not active. Please go to the Widgets setting and add the widget to your sidebar.", ET_DOMAIN);
 				}
 			?>
-			
+         <!--
+		<aside class="widget widget-select content-dot " id="">
+		<div class="fb-page" data-href="https://www.facebook.com/smartjob.vn?fref=ts" data-tabs="messages" data-width="239px" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/smartjob.vn?fref=ts">
+		<a href="https://www.facebook.com/smartjob.vn?fref=ts">Smartjob.vn</a>
+		</blockquote></div></div>
+		</aside>
+        -->		
 		</div>
-
 	</div>
 <?php }
 
 if( is_singular('job') ) 
 {  // single job sidebar
-?>
-	<div class="second-column widget-area <?php if(current_user_can('manage_options') ) echo 'sortable' ?>" id="sidebar-job-detail">
-				
+    ?>
+	<div class="second-column widget-area <?php if(current_user_can('manage_options') ) echo 'sortable' ?>" id="sidebar-job-detail">			
 	<?php 
 		if(is_active_sidebar('sidebar-job-detail')) { 
 			dynamic_sidebar('sidebar-job-detail');
@@ -70,29 +75,43 @@ if( is_singular('job') )
 						<a target="_blank" title="View jobs posted by <?php echo $name_compnay_editor;	?>" href="<?php echo $company['post_url'] ?>/?com_i=<?php echo $id_wp_post;unset($id_wp_post);?>" class="name job_author_link" id="job_author_name" style="font-weight: normal; font-size: 17px;">
 						  <?php echo $name_compnay_editor;	?>				</a>
 					</div>					
-					<div class="title company_name">
-						<a title="View jobs posted by <?php echo $mail_company;	?>" href="<?php bloginfo('url');?>" class="name job_author_link" id="job_author_name" style="font-weight:normal">
-						 <?php echo $mail_company;	?></a>
-					</div>
 					<div class="info icon-default">			
 							<a href="<?php echo $web_url_compnany; ?>" rel="nofollow" target="_blank" id="job_author_url" style="font-weight:normal"><?php echo $web_url_compnany; ?></a>							
 					</div>				
 					<div class="info icon-default" style="text-align: justify; font-size: 16px;">			
-							<?php echo $decript_com;?>							
-					</div>				
-				</aside>				
+							<?php echo $decript_com;?>		
+					</div>	
+				</aside>
+<!--					
+					
+				<aside class="widget widget-select content-dot " id="">
+				<div class="fb-page" data-href="https://www.facebook.com/smartjob.vn?fref=ts" data-tabs="messages" data-width="239px" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+				<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/smartjob.vn?fref=ts">
+				<a href="https://www.facebook.com/smartjob.vn?fref=ts">Smartjob.vn</a>
+				</blockquote></div></div>
+				</aside>
+-->				
 			</div>
-	<?php 
+<?php 
 	}
 	else
 	{
-	JE_Company_Profile ();	
+	JE_Company_Profile ();
+?>
+<!--
+				<aside class="widget widget-select content-dot " id="">
+				<div class="fb-page" data-href="https://www.facebook.com/smartjob.vn?fref=ts" data-tabs="messages" data-width="239px" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+				<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/smartjob.vn?fref=ts">
+				<a href="https://www.facebook.com/smartjob.vn?fref=ts">Smartjob.vn</a>
+				</blockquote></div></div>
+				</aside>
+				-->
+<?php	
 	}
-	?>
+?>
 	<?php
 		}
-	?>				
-
+	?>	
 	</div>
 <?php
 }
@@ -107,28 +126,38 @@ if (is_page_template('page-companies.php')) { // companies list sidebar
 		} else {
 			JE_Company_Count ();
 		} ?>
-		
+		<!--
+		<aside class="widget widget-select content-dot " id="">
+		<div class="fb-page" data-href="https://www.facebook.com/smartjob.vn?fref=ts" data-tabs="messages" data-width="239px" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/smartjob.vn?fref=ts">
+		<a href="https://www.facebook.com/smartjob.vn?fref=ts">Smartjob.vn</a>
+		</blockquote></div></div>
+		</aside>
+		-->
 	</div>
 <?php
 }
 if(is_author()) { // author sidebar
 ?>
 	<div class="second-column widget-area <?php if(current_user_can('manage_options') ) echo 'sortable' ?>" id="sidebar-company">
-		
 	<?php 
-
-
 		if(is_active_sidebar('sidebar-company')) {
 			dynamic_sidebar('sidebar-company');
 		} else {
 			JE_Company_Profile ();
 		}
-
 		if(current_user_can( 'manage_options' )) {
 			je_user_package_data (get_query_var('author'));
 		}
 	?>
-		
+	<!--
+		<aside class="widget widget-select content-dot " id="">
+		<div class="fb-page" data-href="https://www.facebook.com/smartjob.vn?fref=ts" data-tabs="messages" data-width="239px" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/smartjob.vn?fref=ts">
+		<a href="https://www.facebook.com/smartjob.vn?fref=ts">Smartjob.vn</a>
+		</blockquote></div></div>
+		</aside>
+		-->
 	</div>
 <?php 
 }

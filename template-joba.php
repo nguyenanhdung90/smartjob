@@ -115,7 +115,7 @@ if($rows[0]->company_editor_id==$_GET["com_i"])
 						$value = get_post_meta( get_the_ID(), 'cfield-'. $field->ID, true );
 						?>
 						<span itemprop="addressLocality"><?php echo $field->name;?>:</span>
-						<span itemprop="addressLocality" style="color:#ce534d"><?php echo $value;?> </span>
+						<span itemprop="addressLocality" style="color:#f0111b"><?php echo $value;?> </span>
 						<?php
 						}
 						?>
@@ -148,7 +148,7 @@ if($rows[0]->company_editor_id==$_GET["com_i"])
 					$feature = 'flag-feature';
 					$set_feature = __('Unset featured status',ET_DOMAIN);
 			?>
-				<span class="feature font-quicksand"><?php _e('Featured', ET_DOMAIN) ?></span>
+				<span class="feature font-quicksand"><?php _e('Hot', ET_DOMAIN) ?></span>
 			<?php } ?>
 			<?php global $disable_actions;
 			// some pages don't need front end actions

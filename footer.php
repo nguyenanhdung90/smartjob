@@ -58,99 +58,99 @@ if( has_nav_menu('et_footer') ) {
 
 ?>
 
-	<footer class="bg-footer" style="overflow:hidden;height:auto">
+	<footer class="bg-footer" style="overflow:hidden;height:auto;background:black">
 		<div class="main-center">
 			<div class="foot_smartjob">
-			<h1 style="font-weight:normal">Jobs by skill tag</h1>
+			<h2 style="font-weight:normal">Quick Search by Skills</h2>
 				<div class="foot_comon firt_smart">
 					<ul>
-						<li> <a href="<?php bloginfo('url');?>/?s=agile" target="_blank">Agile</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=android" target="_blank">Android</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=angularJS" target="_blank">AngularJS</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=asp.net" target="_blank">ASP.NET</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=Bridge Engineer" target="_blank">Bridge Engineer</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=agile" target="_blank">Business Analyst</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=c#" target="_blank">C#</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=c++" target="_blank">C++</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=c language" target="_blank">C language</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-agile/" title="tuyen dung viec lam Agile" target="_blank">Agile</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-android/" title="tuyen dung viec lam Android" target="_blank">Android</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-angularjs/" title="tuyen dung viec làm AngularJS" target="_blank">AngularJS</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-asp-net/"  title="tuyen dung viec lam ASP.NET"target="_blank">ASP.NET</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-bridge-engineer/" title="tuyen dung viec lam Bridge Engineer" target="_blank">Bridge Engineer</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-business-analyst/" title="tuyen dung viec lam Business Analyst" target="_blank">Business Analyst</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-c-sharp/" title="tuyen dung viec lam C#" target="_blank">C#</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-c-plus/" title="tuyen dung viec lam C++" target="_blank">C++</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-c-language/" title="tuyen dung voec lam C" target="_blank">C language</a></li>	
 					</ul>				  
 				</div>				
 				<div class="foot_comon firt_smart">
 					<ul>
-						<li> <a href="<?php bloginfo('url');?>/?s=css" target="_blank">CSS</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=database" target="_blank">Database</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=designer" target="_blank">Designer</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=django" target="_blank">Django</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=drupal" target="_blank">Drupal</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=embedded" target="_blank">Embedded</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=english" target="_blank">English</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=ERP" target="_blank">ERP</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=flash" target="_blank">Flash</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-css/" title="tuyen dung viec lam CSS" target="_blank">CSS</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-database/" title="tuyen dung viec lam Database" target="_blank">Database</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-designer/" title="tuyen dung viec lam Designer" target="_blank">Designer</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-django/" title="tuyen dung viec lam Django" target="_blank">Django</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-drupal/" title="tuyen dung viec lam Drupal" target="_blank">Drupal</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-embedded/" title="tuyen dung viec lam Embedded" target="_blank">Embedded</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-english/" title="tuyen dung viec lam English" target="_blank">English</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-erp/" title="tuyen dung viec lam ERP" target="_blank">ERP</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-flash/" title="tuyen dung viec lam Flash" target="_blank">Flash</a></li>	
 					</ul>				  
 				</div>				
 				<div class="foot_comon firt_smart">
 					<ul>
-						<li> <a href="<?php bloginfo('url');?>/?s=games" target="_blank">Games</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=html5" target="_blank">HTML5</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=iOS" target="_blank">iOS</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=it support" target="_blank">IT Support</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=j2ee" target="_blank">J2EE</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=japanese" target="_blank">Japanese</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=java" target="_blank">Java</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=javascript" target="_blank">JavaScript</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=jquery" target="_blank">JQuery</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-game/" title="tuyen dung viec lam Games" target="_blank">Games</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-html5/" title="tuyen dung viec lam HTML5" target="_blank">HTML5</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-ios/" title="tuyen dung viec lam IOS" target="_blank">iOS</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-it-support/" title="tuyen dung viec lam IT support" target="_blank">IT Support</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-j2ee/" title="tuyen dung viec lam J2EE" target="_blank">J2EE</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-japanese/" title="tuyen dung viec lam Japanese" target="_blank">Japanese</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-java/" title="tuyen dung lap trinh Java" target="_blank">Java</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-javascript/" title="tuyen dung viec lam JavaScript" target="_blank">JavaScript</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-jquery/" title="tuyen dung viec lam JQuery" target="_blank">JQuery</a></li>	
 					</ul>				  
 				</div>				
 				<div class="foot_comon firt_smart">
 					<ul>
-						<li> <a href="<?php bloginfo('url');?>/?s=json" target="_blank">JSON</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=linux" target="_blank">Linux</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=magento" target="_blank">Magento</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=manager" target="_blank">Manager</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=mobile apps" target="_blank">Mobile Apps</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=mvc" target="_blank">MVC</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=mysql" target="_blank">MySQL</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=.net" target="_blank">.NET</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=networking" target="_blank">Networking</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-it-phan-cung-mang/" title="tuyen dung viec lam Hardware" target="_blank">Hardware</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-linux/" title="tuyen dung viec lam Linux" target="_blank">Linux</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-magento/" title="tuyen dung viec lam Magento" target="_blank">Magento</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-manager/" title="tuyen dung lap trinh Manager" target="_blank">Manager</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-mobile-apps/" title="tuyen dung lap trinh Mobile Apps" target="_blank">Mobile Apps</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-mvc" title="tuyen dung viec lam MVC" target="_blank">MVC</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-mysql/" title="tuyen dung viec lam MySQL" target="_blank">MySQL</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-net/" title="tuyen dung viec lam .NET" target="_blank">.NET</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-networking/" title="tuyen dung viec lam Networking" target="_blank">Networking</a></li>	
 					</ul>				  
 				</div>				
 				<div class="foot_comon firt_smart">
 					<ul>
-						<li> <a href="<?php bloginfo('url');?>/?s=nodejs" target="_blank">NodeJS</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=objective c" target="_blank">Objective C</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=oop" target="_blank">OOP</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=oracle" target="_blank">Oracle</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=php" target="_blank">PHP</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=postgresql" target="_blank">PostgreSql</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=product manager" target="_blank">Product Manager</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=project manager" target="_blank">Project Manager</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=python" target="_blank">Python</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-nodejs/" title="tuyen dung viec lam NodeJS" target="_blank">NodeJS</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-objective-c/" title="tuyen dung viec lam Objective C" target="_blank">Objective C</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-oop/" title="tuyen dung viec lam OOP" target="_blank">OOP</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-oracle/" title="tuyen dung viec lam Oracle" target="_blank">Oracle</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-php/" title="tuyen dung viec lam PHP" target="_blank">PHP</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-postgresql/" title="tuyen dung viec lam PostgreSql" target="_blank">PostgreSql</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-product-manager/" title="tuyen dung viec lam Product Manager" target="_blank">Product Manager</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-project-manager/" title="tuyen dung viec lam Project Manager" target="_blank">Project Manager</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-python/" title="tuyen dung viec lam python" target="_blank">Python</a></li>	
 					</ul>				  
 				</div>				
 				<div class="foot_comon firt_smart">
 					<ul>
-						<li> <a href="<?php bloginfo('url');?>/?s=qa qc" target="_blank">QA QC</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=ruby" target="_blank">Ruby</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=ruby on rails" target="_blank">Ruby on Rails</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=sales engineer" target="_blank">Sales Engineer</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=sharepoint" target="_blank">Sharepoint</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=software architect" target="_blank">Software Architect</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=sql" target="_blank">SQL</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=system admin" target="_blank">System Admin</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=system engineer" target="_blank">System Engineer</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-qa-qc/" title="tuyen dung viec lam QA QC" target="_blank">QA QC</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-ruby/" title="tuyen dung viec lam Ruby" target="_blank">Ruby</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-ruby-on-rails/" title="tuyen dung viec la, Ruby on Rails" target="_blank">Ruby on Rails</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-sales-engineer/" title="tuyen dung viec lam Sales Engineer" target="_blank">Sales Engineer</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-sharepoint/" title="tuyen dung viec lam Sharepoint" target="_blank">Sharepoint</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-software-architect/" title="tuyen dung viec lam Software Architect" target="_blank">Software Architect</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-sql/" title="tuyen dung viec lam SQL" target="_blank">SQL</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-system-admin/" title="tuyen dung viec lam System Admin" target="_blank">System Admin</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-system-engineer/" title="tuyen dung viec lam System Engineer" target="_blank">System Engineer</a></li>	
 					</ul>				  
 				</div>				
 				<div class="foot_comon firt_smart">
 					<ul>
-						<li> <a href="<?php bloginfo('url');?>/?s=team leader" target="_blank">Team Leader</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=tester" target="_blank">Tester</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=ui ux" target="_blank">UI-UX</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=unity" target="_blank">Unity</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=windows phone" target="_blank">Windows Phone</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=wordpress" target="_blank">Wordpress</a></li>
-						<li> <a href="<?php bloginfo('url');?>/?s=xml" target="_blank">XML</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=xml" target="_blank">XML</a></li>	
-						<li> <a href="<?php bloginfo('url');?>/?s=xml" target="_blank">XML</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-team-leader/" title="tuyen dung viec lam Team Leader" target="_blank">Team Leader</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-tester/" title="tuyen dung viec lam Tester" target="_blank">Tester</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-ui-ux/" title="tuyen dung viec lam UI-UX" target="_blank">UI-UX</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-unity/" title="tuyen dung viec lam Unity" target="_blank">Unity</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-windows-phone/" title="tuyen dung viec lam Windows Phone" target="_blank">Windows Phone</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-wordpress/" title="tuyen dung viec lam wordpress" target="_blank">Wordpress</a></li>
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-seo/" title="tuyen dung viec lam SEO" target="_blank">Seo</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-mkt-online/" tuyen dung viec lam MKT online target="_blank">Marketing Online</a></li>	
+						<li> <a href="http://smartjob.vn/tuyen-dung-viec-lam-xml/" title="tuyen dung viec lam XML" target="_blank">XML</a></li>	
 					</ul>				  
 				</div>							
 			</div>

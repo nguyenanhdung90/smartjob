@@ -4,7 +4,7 @@ global $wp_query;
 get_header();
 ?>
 <div class="wrapper clearfix">
-<div class="heading" style="margin-top: 70px;">
+	<div class="heading" style="margin-top: 70px;">
 		<div class="main-center">
 			<h1 class="title job-title" id="job_title" style="font-size: 22px; font-weight: 500;"><?php single_cat_title( '', true ); ?></h1>
 		</div>
@@ -32,9 +32,7 @@ get_header();
 						$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' );
 						}else{ $large_image_url[0]=get_bloginfo('stylesheet_directory').'/img/chuanhapanh.jpg';}
 						?>
-<a href="<?php the_permalink()?>" title="<?php the_title()?>">
-						<img style="border-radius:0px" width="96" height="96" class="avatar avatar-96 photo"  src="<?php echo  $large_image_url[0];?>" alt="<?php the_title()?>">
-</a>
+						<img style="border-radius:0px" width="96" height="96" class="avatar avatar-96 photo"  src="<?php echo  $large_image_url[0];?>" alt="">
 					</div>
 					<div class="author">
 							<?php the_author()?>
@@ -69,7 +67,7 @@ get_header();
 			<?php }?>
 		</div>
 		<div class="second-column widget-area " id="sidebar-blog">
-				<aside class="widget widget_miw_multi_image_widget" id="miw_multi_image_widget-4"><div class="widget-title" style="margin-top: 12px; font-weight: 500; font-size: 21px;background-color:#2a4560;color:white;padding-top:7px;padding-bottom:7px"> Chuyên mục Blog</div>         
+				<aside class="widget widget_miw_multi_image_widget" id="miw_multi_image_widget-4"><div class="widget-title" style="margin-top: 12px; font-weight: 500; font-size: 21px;"> Chuyên mục Blog</div>         
 					<div class="miw-container">
 						<ul class="miw miw-linear">
 									 <?php 
@@ -94,7 +92,7 @@ get_header();
 						                    {	
 									?>
 									<li style="text-align:left" class="miw-loop">
-									<a href="<?php echo get_category_link( $category->term_id );?>"  style="font-weight: 400; font-size: 17px;">  <?php echo $category->cat_name; ?></a>
+									<a href="<?php echo get_category_link( $category->term_id );?>"  style="font-weight: 500; font-size: 19px;">  <?php echo $category->cat_name; ?></a>
 									<?php
 									$term_id = $category->term_id;
 									$taxonomy_name = 'category';
@@ -103,7 +101,7 @@ get_header();
 									echo '<ul style="margin-left:16px;">';
 									foreach ( $termchildren as $child ) {
 									$term = get_term_by( 'id', $child, $taxonomy_name );
-									echo '<li><a href="' . get_term_link( $child, $taxonomy_name ) . '" style="font-weight:300;border-bottom:1px dotted #ededed ">- ' . $term->name . '</a></li>';
+									echo '<li><a href="' . get_term_link( $child, $taxonomy_name ) . '">- ' . $term->name . '</a></li>';
 									}
 									echo '</ul>';	
 									?>
