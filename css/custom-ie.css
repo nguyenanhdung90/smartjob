@@ -1,0 +1,24 @@
+footer {
+	margin-bottom: -20px;
+}
+
+.header-filter .search-box {
+	height: 37px;
+}
+
+.widget-job-alert input {
+	height: 37px !important;
+	line-height: 35px;
+}
+
+.form-item input {
+	line-height: 35px !important;
+}
+
+.select-style:after {
+	content: "" !important;
+	background: url("../img/select-style-arrow.png") center no-repeat;
+	width: 10px;
+	height: 5px;
+	top: 15px !important;
+}

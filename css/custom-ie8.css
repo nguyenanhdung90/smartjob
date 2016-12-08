@@ -1,0 +1,100 @@
+.filter-jobstatus,
+.widget-title ul,
+.widget-title ol {
+	list-style: none;
+}
+
+.main-header {
+	overflow: hidden;
+}
+
+.main-column .list-job li .desc {
+	position: inherit;
+}
+
+/*** Fix Pictos IE ***/
+.icon:before {
+	display: none;	
+}
+
+
+.widget-job-alert .btn-subscribe span {
+	line-height: 0;
+}
+
+.entry-blog .content .header a.comment span {
+	margin-right: 3px;
+}
+
+.btn-widget .bg-btn-action.edit, .btn-widget .bg-btn-action.remove {
+	text-transform: inherit;
+}
+
+#customizer_trigger {
+	display: block;
+	background: url("../img/icon-customize.png") center #7d7e7d no-repeat;
+ 	filter: none;
+}
+
+.viewcount span.icon { 
+	margin-right: 10px; 
+	font-size: 15px;
+}
+
+.widget-job-alert .btn-subscribe span {
+    top: 10px;
+}
+
+/*** Tailed Letter ***/
+#commentform .form-submit input[type=submit],
+.job-apply .btn-apply,
+.account-title .account-menu a,
+.main-header a {
+	font-size: 1.05em;
+}
+
+.form-item input[type=submit],
+.forgot-pass-link {
+	font-size: 1.05em !important;
+}
+
+.header-technical a {
+    font-size: 11px !important;
+}
+
+/**** fix line-height ****/
+.form-item input,
+.search-form input {
+	line-height: 36px;
+}
+
+#header-filter .search-box  {
+	line-height: 38px;
+}
+
+.widget-job-alert input {
+	line-height: 36px;
+}
+
+/**** fix cufon ****/
+.error span.icon[data-icon="!"] {	
+	width: 16px;
+	display: inline-block;
+	background: url("../img/pictos-ie.png");
+	padding: 0 !important;
+	height: 14px;
+	margin-top: 1px;
+	background-position: -49px -42px;
+}
+.form-item .apply label{
+	font-size: 11px !important;
+}
+.widget-area .company-profile{
+	border: 1px solid #eaeaea;
+}
+.widget-area .company-profile .thumbs img{
+	border: 1px solid #eaeaea;
+}
+.cancel-modal .icon{
+	top:-1px !important;
+}

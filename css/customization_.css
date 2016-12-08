@@ -1,0 +1,357 @@
+body,
+.wrapper {
+  background-color: #FAF9F5;
+  background-image: url(http://smartjob.vn/wp-content/themes/SMARTJOB/img/pattern.png);
+  background-repeat: repeat;
+}
+footer,
+.bg-footer {
+  background: #F7F0E6;
+  background: -moz-linear-gradient(top,#f3e9da 0%,#F7F0E6 15%,#F7F0E6 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f3e9da),color-stop(15%,#F7F0E6),color-stop(100%,#F7F0E6));
+  background: -webkit-linear-gradient(top,#f3e9da 0%,#F7F0E6 15%,#F7F0E6 100%);
+  background: -o-linear-gradient(top,#f3e9da 0%,#F7F0E6 15%,#F7F0E6 100%);
+  background: -ms-linear-gradient(top,#f3e9da 0%,#F7F0E6 15%,#F7F0E6 100%);
+  background: linear-gradient(top,#f3e9da 0%,#F7F0E6 15%,#F7F0E6 100%);
+  color: #999999;
+}
+footer .copyright {
+  color: overlay(#F7F0E6,#000000);
+}
+footer .menu-bottom a {
+  color: #999999;
+}
+.header-second,
+.header-filter {
+  border-color: #e9e5d3;
+  background-color: #f2efe4;
+}
+.main-title,
+.widget-title,
+.account-title,
+.form-account .line-hr {
+  border-bottom: 1px solid #e9e5d3;
+}
+.companies-statis div.first {
+  border-bottom: 1px solid #e9e5d3;
+}
+.entry-blog .comments #respond h3.reply-title,
+.entry-blog .comments .comment-list li {
+  border-bottom: 1px solid #f2efe4;
+}
+.entry-blog h3.title {
+  border-bottom: 1px solid #f2efe4;
+  border-top: 1px solid #f2efe4;
+}
+.heading-info .heading-map {
+  border: 1px solid #e9e5d3;
+}
+.heading-info .sharing ul li,
+.heading-info .sharing ul li:first-child {
+  border-color: #f0ede1;
+}
+.btn-background {
+  background: #f7f5ee;
+  background: -moz-linear-gradient(top,#faf9f5 0%,#f8f7f2 10%,#f5f3eb 88%,#ece9da 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#faf9f5),color-stop(10%,#f8f7f2),color-stop(88%,#f5f3eb),color-stop(100%,#ece9da));
+  background: -webkit-linear-gradient(top,#faf9f5 0%,#f8f7f2 10%,#f5f3eb 88%,#ece9da 100%);
+  background: -o-linear-gradient(top,#faf9f5 0%,#f8f7f2 10%,#f5f3eb 88%,#ece9da 100%);
+  background: -ms-linear-gradient(top,#faf9f5 0%,#f8f7f2 10%,#f5f3eb 88%,#ece9da 100%);
+  background: linear-gradient(top,#faf9f5 0%,#f8f7f2 10%,#f5f3eb 88%,#ece9da 100%);
+  border: 1px solid #e6e1cc;
+  color: #a09050;
+}
+.btn-background:hover {
+  border: 1px solid #e6e1cc;
+  background: #f2efe4;
+  background: -moz-linear-gradient(top,#f8f7f2 0%,#f7f5ee 10%,#f2efe4 88%,#e9e5d3 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f8f7f2),color-stop(10%,#f8f7f2),color-stop(88%,#f5f3eb),color-stop(100%,#e9e5d3));
+  background: -webkit-linear-gradient(top,#f8f7f2 0%,#f7f5ee 10%,#f2efe4 88%,#e9e5d3 100%);
+  background: -o-linear-gradient(top,#f8f7f2 0%,#f7f5ee 10%,#f2efe4 88%,#e9e5d3 100%);
+  background: -ms-linear-gradient(top,#f8f7f2 0%,#f7f5ee 10%,#f2efe4 88%,#e9e5d3 100%);
+  background: linear-gradient(top,#f8f7f2 0%,#f7f5ee 10%,#f2efe4 88%,#e9e5d3 100%);
+}
+.btn-background:active {
+  background: #e9e5d3;
+  background: -moz-linear-gradient(top,#e9e5d3 0%,#f5f3eb 12%,#f8f7f2 90%,#faf9f5 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#e9e5d3),color-stop(12%,#f5f3eb),color-stop(90%,#f8f7f2),color-stop(100%,#faf9f5));
+  background: -webkit-linear-gradient(top,#e9e5d3 0%,#f5f3eb 12%,#f8f7f2 90%,#faf9f5 100%);
+  background: -o-linear-gradient(top,#e9e5d3 0%,#f5f3eb 12%,#f8f7f2 90%,#faf9f5 100%);
+  background: -ms-linear-gradient(top,#e9e5d3 0%,#f5f3eb 12%,#f8f7f2 90%,#faf9f5 100%);
+  background: linear-gradient(top,#e9e5d3 0%,#f5f3eb 12%,#f8f7f2 90%,#faf9f5 100%);
+}
+.widget_search input#s,
+.input-search-box {
+  background: #FAF9F5;
+  box-shadow: inset 0 1px 2px #e1dac2;
+  -moz-box-shadow: inset 0 1px 2px #e1dac2;
+  -webkit-box-shadow: inset 0 1px 2px #e1dac2;
+  border-color: #d8d0b1;
+  border-width: 1px;
+  border-style: solid;
+}
+.heading {
+  border-color: #e9e5d3;
+}
+.jse-signup-profile .module .title .btn-edit a,
+.jse-profile .setting-profile,
+.jse-profile .toggle-edit {
+  color: #c7bc8f !important;
+}
+.jse-signup-profile .module .title {
+  border-color: #ece9da !important;
+}
+.jse-signup-profile .module .edu-module .item .line {
+  border-color: #e6e1cc !important;
+}
+.jse-signup-profile .module .edu-module .item .dot {
+  background-color: #e6e1cc !important;
+}
+.edu-form {
+  border-color: #f2efe4 !important;
+}
+.jse-signup-profile .module .edu-module .item .content {
+  color: #e6e1cc !important;
+}
+.heading-info,
+.bg-job-frame,
+.bg-grey-widget {
+  background-color: #f7f5ee;
+  box-shadow: inset 0 1px 6px -2px #e1dac2;
+}
+.jse-signup-profile .module.editing,
+.authorized .jse-signup-profile .module-edit:hover {
+  background-color: #f8f7f2 !important;
+}
+.jquery-sort-column > ul > li .title,
+ul.list-company > li .title {
+  border-bottom: 1px solid #e9e5d3;
+}
+.heading-info,
+ul.list-company ul li,
+.jquery-sort-column > ul ul li,
+.main-column .list-jobs li,
+.entry-blog > li,
+.job-account-list li {
+  border-bottom: 1px solid #f2efe4;
+}
+.job-account-list li .control {
+  border-left: 1px solid #f2efe4;
+}
+.widget-area .company-profile .info,
+.entry-blog .comments li .thumb,
+.entry-blog .comments li .children li {
+  border-top: 1px solid #eeebdd;
+}
+.widget ul li a {
+  border-bottom: 1px solid #f2efe4 !important;
+}
+.bg-main-header {
+  background: #29435e;
+  background: -moz-linear-gradient(top,#325273 0%,#29435e 90%,#263e57 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#325273),color-stop(90%,#29435e),color-stop(100%,#263e57));
+  background: -webkit-linear-gradient(top,#325273 0%,#29435e 90%,#263e57 100%);
+  background: -o-linear-gradient(top,#325273 0%,#29435e 90%,#263e57 100%);
+  background: -ms-linear-gradient(top,#325273 0%,#29435e 90%,#263e57 100%);
+  background: linear-gradient(top,#325273 0%,#29435e 90%,#263e57 100%);
+}
+.category .menu-header-top li > a,
+.bg-btn-header {
+  background: #36577a;
+  background: -moz-linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#3a5f85),color-stop(85%,#36577a),color-stop(100%,#2e4b69));
+  background: -webkit-linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  background: -o-linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  background: -ms-linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  background: linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  box-shadow: 0 1px 2px #233950;
+  -moz-box-shadow: 0 1px 2px #233950;
+  -webkit-box-shadow: 0 1px 2px #233950;
+}
+.current-menu-item .bg-btn-header,
+.category .menu-header-top .current-menu-item a,
+.account .menu-header-top .selected a,
+.bg-btn-header:active {
+  background: #162534 !important;
+  background: -moz-linear-gradient(top,#233950 0%,#162534 100%) !important;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#233950),color-stop(100%,#162534)) !important;
+  background: -webkit-linear-gradient(top,#233950 0%,#162534 100%) !important;
+  background: -o-linear-gradient(top,#233950 0%,#162534 100%) !important;
+  background: -ms-linear-gradient(top,#233950 0%,#162534 100%) !important;
+  background: linear-gradient(top,#233950 0%,#162534 100%) !important;
+  box-shadow: inset 0 2px 3px #162534;
+  -moz-box-shadow: inset 0 2px 3px #162534;
+  -webkit-box-shadow: inset 0 2px 3px #162534;
+}
+.header-technical .ver-line {
+  background-color: #243b53;
+}
+.main-header .slogan {
+  color: #eeeeee;
+  text-shadow: 1px 0 0 #162534;
+}
+body,
+.tinymce-style {
+  color: #555555;
+}
+.breadcrumb a,
+.breadcrumb span {
+  color: #555555;
+}
+.tinymce-style h1,
+.tinymce-style h2,
+.tinymce-style h3,
+.tinymce-style h4,
+.tinymce-style h5,
+.tinymce-style h6,
+.job-detail .description h6 {
+  color: #484848;
+}
+.heading-info .info .name,
+.widget .widget-title,
+.heading h1.title {
+  color: #3c3c3c;
+}
+.widget ul.category-lists li a,
+.tinymce-style .description {
+  color: #555555;
+}
+.widget-select ul li a.active,
+.widget-select ul li a:hover {
+  border-color: #555555;
+}
+.heading-info .viewcount,
+.heading-info .date,
+.heading-info .date:before,
+.widget ul.category-lists li a span {
+  color: #959595;
+}
+.heading-info .job-location:before,
+.heading-info .job-location,
+.main-column .list-jobs li .desc > div,
+.main-column .list-jobs li .desc > div a {
+  color: #7b7b7b;
+}
+.list-alphabet li a {
+  color: #888888;
+}
+.jobseeker .account-title a {
+  color: #888888;
+}
+.jobseeker .account-title .menu a {
+  color: #555555;
+}
+.entry-blog #respond input[type="submit"],
+.bg-btn-action {
+  background: #cf412e;
+  background: -moz-linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d65746),color-stop(90%,#cf412e),color-stop(100%,#c73e2c));
+  background: -webkit-linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  background: -o-linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  background: -ms-linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  background: linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  font-family: "Quicksand";
+  color: #eeeeee !important;
+}
+.entry-blog #respond input[type="submit"]:hover,
+.bg-btn-action:hover {
+  background: #d34b39;
+  background: -moz-linear-gradient(top,#d85e4e 0%,#d34b39 90%,#c73e2c 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d85e4e),color-stop(90%,#d34b39),color-stop(100%,#c73e2c));
+  background: -webkit-linear-gradient(top,#d85e4e 0%,#cf412e 90%,#c73e2c 100%);
+  background: -o-linear-gradient(top,#d85e4e 0%,#d34b39 90%,#c73e2c 100%);
+  background: -ms-linear-gradient(top,#d85e4e 0%,#d34b39 90%,#c73e2c 100%);
+  background: linear-gradient(top,#d85e4e 0%,#d34b39 90%,#c73e2c 100%);
+}
+.entry-blog #respond input[type="submit"]:active,
+.bg-btn-action:active {
+  background: #c73e2c;
+  background: -moz-linear-gradient(top,#c73e2c 0%,#cf412e 10%,#d65746 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#c73e2c),color-stop(10%,#cf412e),color-stop(100%,#d65746));
+  background: -webkit-linear-gradient(top,#c73e2c 0%,#cf412e 10%,#d65746 100%);
+  background: -o-linear-gradient(top,#c73e2c 0%,#cf412e 10%,#d65746 100%);
+  background: -ms-linear-gradient(top,#c73e2c 0%,#cf412e 10%,#d65746 100%);
+  background: linear-gradient(top,#c73e2c 0%,#cf412e 10%,#d65746 100%);
+}
+.bg-btn-action span {
+  color: #eee;
+}
+.widget_calendar table td#today,
+.widget_calendar table td a,
+.entry-blog .content .footer a,
+.entry-blog .content .header a.comment,
+.heading .technical a {
+  color: #C73E2C;
+}
+.color-action {
+  color: #C73E2C;
+}
+.main-column a,
+.main-column a:visited,
+.widget a,
+.widget a:visited {
+  color: #C73E2C;
+}
+.list-alphabet li.active a {
+  color: #C73E2C;
+}
+.modal-job .footer .forgot-pass-link {
+  color: #C73E2C;
+}
+.bg-btn-hyperlink {
+  background: #cf412e;
+  background: -moz-linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d65746),color-stop(90%,#cf412e),color-stop(100%,#c73e2c));
+  background: -webkit-linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  background: -o-linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  background: -ms-linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+  background: linear-gradient(top,#d65746 0%,#cf412e 90%,#c73e2c 100%);
+}
+.post-a-job .step ul li.selected {
+  background: #f4d0cb;
+}
+.selected .btn-select button {
+  background: #dd7163;
+  color: #C73E2C;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+::-moz-selection {
+  background: #d85e4e;
+  color: #f4d0cb;
+  text-shadow: none;
+}
+::selection {
+  background: #d85e4e;
+  color: #f4d0cb;
+  text-shadow: none;
+}
+.heading h1.title {
+  font-size: 22px;
+  font-family: Helvetica, san-serif;
+}
+.tinymce-style h1,
+.tinymce-style h2,
+.tinymce-style h3,
+.tinymce-style h4,
+.tinymce-style h5,
+.tinymce-style h6,
+.job-detail .description h6,
+.main-title,
+.widget .widget-title,
+.headline {
+  font-family: Helvetica, san-serif;
+  margin: 0 0 10px 0;
+}
+.modal-job .title-white h5 {
+  font-family: Helvetica, san-serif;
+}
+body,
+.tinymce-style {
+  font-family: Helvetica, san-serif;
+  font-size: 12px;
+}
+a {
+  color: #C73E2C;
+}

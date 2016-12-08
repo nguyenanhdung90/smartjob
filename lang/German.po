@@ -1,0 +1,2569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Job Engine v1.0.2\n"
+"Report-Msgid-Bugs-To: http://www.enginethemes.com/\n"
+"POT-Creation-Date: 2013-01-08 07:42:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-04-18 16:31+0700\n"
+"Last-Translator: dakachi <david87dang@gmail.com>\n"
+"Language-Team: Engine Themes <contact@enginethemes.com>\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid " - Mobile version"
+msgstr "- Mobilversion"
+
+msgid " reject job reason "
+msgstr "Grund für Stellenablehnung"
+
+msgid " seeker infomation "
+msgstr "Informationen Arbeitssuchender"
+
+msgid " site info, admin email"
+msgstr "Seiteninformationen, Admin-E-Mail"
+
+msgid "%d active job by %s"
+msgstr "%d aktive Stelle von %s"
+
+msgid "%d active jobs by %s"
+msgstr "%d aktive Stellen von %s"
+
+msgid "%d job"
+msgstr "%d Stelle"
+
+msgid "%d jobs"
+msgstr "%d Stellen"
+
+msgid "%s for %s days"
+msgstr "%s für %s Tage"
+
+msgid "2CheckOut"
+msgstr "2CheckOut"
+
+msgid "2Checkout supported currencies"
+msgstr "Von 2Checkout unterstützte Währungen"
+
+msgid ""
+"<p>Dear [display_name],</p><p>Your job [job_title] in [blogname] has been "
+"changed to archive mode, due to expiration or manual action.</p><p>If you "
+"want to continue displaying this job in our website, please go to your "
+"dashboard at [dashboard] to renew your job offer.</p><p>Sincerely,<br />"
+"[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Ihre Stelle [job_title] in [blogname] wurde "
+"in den Archivmodus versetzt, da sie entweder ausgelaufen ist oder manuell "
+"archiviert wurde.</p><p>Wenn diese Stelle weiterhin auf unserer Website "
+"angezeigt werden soll, gehen Sie bitte auf Ihr Dashboard auf [dashboard], um "
+"Ihr Stellenangebot zu erneuern.</p><p>Viele Grüße<br />[blogname]</p>"
+
+msgid ""
+"<p>Dear [display_name],</p><p>Your job [job_title] posted in [blogname] has "
+"been approved.</p><p>You can follow this link: [job_link] to view your job "
+"offer.</p><p>Sincerely,<br />[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Ihre in [blogname] angelegte Stelle "
+"[job_title] wurde genehmigt.</p><p>Folgen Sie diesem Link, um Ihr "
+"Stellenangebot anzusehen: [job_link]</p><p>Viele Grüße<br />[blogname]</p>"
+
+msgid ""
+"<p>Dear [display_name],</p><p>Your job [job_title] posted in [blogname] has "
+"been rejected. Noted reason: [reason]</p><p>Please contact the "
+"administrators via [admin_email] for more information, or go to your "
+"dashboard at [dashboard] to edit your job offer and post it again.</"
+"p><p>Sincerely,<br />[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Ihre in [blogname] angelegte Stelle "
+"[job_title] wurde abgelehnt. Angemerkter Grund: [reason]</p><p>Bitte "
+"kontaktieren Sie für weitere Informationen die Administratoren über "
+"[admin_email] oder gehen Sie auf Ihr Dashbord unter [dashboard], um Ihr "
+"Stellenangebot zu bearbeiten und es erneut einzustellen.</p><p>Viele "
+"Grüße<br />[blogname]</p>"
+
+msgid ""
+"<p>Dear [display_name],</p><p>Your job offer [job_title] posted in "
+"[blogname] has a new application.</p><p>Here is the applicant information:</"
+"p><ol><li>Name: [seeker_name]</li><li>Email address: [seeker_mail]</"
+"li><li>Note: [seeker_note]</li></ol><p>The files of this applicant has also "
+"attached in this email.</p><p>And here is the link to you job offer in "
+"[blogname]: [job_link].</p><p>Sincerely,<br />[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>für das von Ihnen in [blogname] "
+"veröffentlichte Stellenangebot [job_title] ist eine neue Bewerbung "
+"eingegangen.</p><p>Die Informationen des Bewerbers sind wie folgt:</"
+"p><ol><li>Name: [seeker_name]</li><li>E-Mail-Adresse: [seeker_mail]</"
+"li><li>Anmerkung: [seeker_note]</li></ol><p>Die Dateien dieses Bewerbers "
+"sind auch an diese E-Mail angehängt.</p><p>Und hier ist der Link zu Ihrem "
+"Stellenangebot in [blogname]: [job_link].</p><p>Viele Grüße<br />[blogname]</"
+"p>"
+
+msgid ""
+"<p>Hello [display_name],</p><p>You have just changed your password "
+"successfully. You can now log into our website at [site_url].</"
+"p><p><span>Sincerely,<br /></span>[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Sie haben soeben Ihr Passwort erfolgreich "
+"geändert. Sie können sich jetzt auf unserer Website auf [site_url] anmelden."
+"</p><p><span>Viele Grüße<br /></span>[blogname]</p>"
+
+msgid ""
+"<p>Hello [display_name],</p><p>You have just registered an account;in "
+"[blogname] successfully.</p><p>Here is your account information:</"
+"p><ol><li>Username: [user_login]</li><li>Email: [user_email]</li></"
+"ol><p>Thanks and welcome you to [blogname].</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Sie haben erfolgreich ein Konto auf "
+"[blogname] erstellt.</p><p>Ihre Kontoinformationen:</p><ol><li>Benutzername: "
+"[user_login]</li><li>E-Mail: [user_email]</li></ol><p>Danke und willkommen "
+"bei [blogname].</p>"
+
+msgid ""
+"<p>Hello [display_name],</p><p>You have just sent a request for recovering "
+"your password in [blogname]. if this was not your request, please ignore "
+"this email address, otherwise, please click on the following URL to create "
+"your new password:</p><p>[activate_url]</p><p>Regards,<br />[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Sie haben soeben eine Anfrage zur Passwort-"
+"Wiederherstellung in [blogname] gesendet. Wenn es sich dabei nicht um Ihre "
+"Anfrage handelt, ignorieren Sie diese E-Mail. Klicken Sie andernfalls bitte "
+"auf die folgende URL, um Ihr neues Passwort zu erstellen:</p><p>"
+"[activate_url]</p><p>Viele Grüße<br />[blogname]</p>"
+
+msgid ""
+"<p>Hello [seeker_email],</p><p>You have just saved a job in [blogname] for "
+"viewing later. Here is the job information:</p><ol><li>Job title: [job_title]"
+"</li>\t<li>Job link: [job_link]</li><li>Company name: [company]</li><li>Your "
+"note: [remind_note]</li></ol><p>Regards,<br />[blogname]</p>"
+msgstr ""
+"<p>Hallo [seeker_email],</p><p>Sie haben soeben eine Stelle in [blogname] "
+"zur späteren Ansicht gespeichert. Die Stelleninformationen sind wie folgt:</"
+"p><ol><li>Stellenbezeichnung: [job_title]</li>\t<li>Link zum Stellenangebot: "
+"[job_link]</li><li>Firmenname: [company]</li><li>Ihre Anmerkungen: "
+"[remind_note]</li></ol><p>Viele Grüße<br />[blogname]</p>"
+
+msgid ""
+"<p>Your job has been submited to our website.</p><p>Please send your payment "
+"to account number: XXXX. After the payment has been verified, your job will "
+"be active in our website.</p>"
+msgstr ""
+"<p>Ihre Stelle wurde an unsere Website übermittelt.</p><p>Bitte senden Sie "
+"Ihre Zahlung an die Kontonummer: XXXX. Nachdem die Zahlung verifiziert "
+"wurde, wird Ihre Stelle auf unserer Website aktiviert.</p>"
+
+msgid ""
+"<span><strong>Congratulations!</strong></span><br /><span class=\"msg\">This "
+"job has been reminded. Good luck!</span>"
+msgstr ""
+"<span><strong>Glückwunsch!</strong></span><br /><span class=\"msg\">Es wurde "
+"eine Erinnerung für diese Stelle gesendet. Viel Glück!</span>"
+
+msgid ""
+"<span><strong>Congratulations!</strong></span><br /><span class=\"msg\">Your "
+"submission has been sent. Good luck!</span>"
+msgstr ""
+"<span><strong>Glückwunsch!</strong></span><br /><span class=\"msg\">Ihre "
+"Einsendung wurde gesendet. Viel Erfolg!</span>"
+
+msgid "<strong>ERROR</strong>: Enter username or email address."
+msgstr ""
+"<strong>FEHLER</strong>: Geben Sie Ihren Benutzernamen oder Ihre E-Mail-"
+"Adresse ein."
+
+msgid "<strong>ERROR</strong>: Invalid username or email address."
+msgstr ""
+"<strong>FEHLER</strong>: Der Benutzername oder die E-Mail-Adresse ist "
+"ungültig."
+
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+"<strong>FEHLER</strong>: Es ist kein Benutzer mit dieser E-Mail-Adresse "
+"registriert."
+
+msgid "ACCOUNT"
+msgstr "Konto"
+
+msgid "ACTIVE"
+msgstr "Aktiv"
+
+msgid "API setting is invalid!"
+msgstr "Die API-Einstellung ist ungültig!"
+
+msgid "APPROVE"
+msgstr "Genehmigen"
+
+msgid "ARCHIVED"
+msgstr "ARCHIVIERT"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Activate customization mode"
+msgstr "Anpassungsmodus aktivieren"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Application"
+msgstr "Neue Bewerbung hinzufügen"
+
+msgid "Add New Category"
+msgstr "Neue Kategorie hinzufügen"
+
+msgid "Add New Job"
+msgstr "Neue Stelle hinzufügen"
+
+msgid "Add New Job Type"
+msgstr "Neue Stellenart hinzufügen"
+
+msgid "Add New Plan"
+msgstr "Neuen Plan hinzufügen"
+
+msgid "Add a comment"
+msgstr "Kommentar hinzufügen"
+
+msgid "Add a new currency"
+msgstr "Neue Währung hinzufügen"
+
+msgid "Add a new language"
+msgstr "Neue Sprache hinzufügen"
+
+msgid "Add another category"
+msgstr "Weitere Kategorie hinzufügen"
+
+msgid "Add another type"
+msgstr "Weitere Art hinzufügen"
+
+msgid "Add language"
+msgstr "Sprache hinzufügen"
+
+msgid "Add more +"
+msgstr "Weitere hinzufügen +"
+
+msgid "Add sub category for this category"
+msgstr "Unterkategorie für diese Kategorie hinzufügen"
+
+msgid "Adding new language successfully."
+msgstr "Neue Sprache erfolgreich hinzugefügt."
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "After"
+msgstr "Nach"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "All Applications"
+msgstr "Alle Bewerbungen"
+
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+msgid "All Companies"
+msgstr "Alle Firmen"
+
+msgid "All Job Types"
+msgstr "Alle Stellenarten"
+
+msgid "All Jobs"
+msgstr "Alle Stellen"
+
+msgid "All Plans"
+msgstr "Alle Pläne"
+
+msgid "All categories"
+msgstr "Alle Kategorien"
+
+msgid "Already have an account?"
+msgstr "Haben Sie bereits ein Konto?"
+
+msgid "American Dollar"
+msgstr "Amerikanischer Dollar"
+
+msgid "An error has been occurred"
+msgstr "Es ist ein Fehler aufgetreten"
+
+msgid "An error has occurred!"
+msgstr "Es ist ein Fehler aufgetreten!"
+
+msgid "An error has occurred, please try again!"
+msgstr "Es ist ein Fehler aufgetreten, bitte versuchen Sie es erneut!"
+
+msgid "An unknown error  occurred while sending email."
+msgstr "Beim Senden der E-Mail ist ein unbekannter Fehler aufgetreten."
+
+msgid "Api setting invalid"
+msgstr "Api-Einstellung ungültig"
+
+msgid "Application"
+msgstr "Bewerbung"
+
+msgid "Application for %s, you posted on %s"
+msgstr "Bewerbung für %s, die Sie am %s veröffentlicht haben"
+
+msgid "Applications"
+msgstr "Bewerbungen"
+
+msgid "APPLY FOR THIS JOB"
+msgstr "Diese Stelle Speichern"
+
+msgid "Apply-for-job Email template"
+msgstr "E-Mail-Vorlage Auf Stelle bewerben"
+
+msgid "Approve"
+msgstr "Genehmigen"
+
+msgid "Approve-job Email template"
+msgstr "E-Mail-Vorlage Stelle genehmigen"
+
+msgid "Archive"
+msgstr "Archiv"
+
+msgid "Archive <span class=\"count\">(%s)</span>"
+msgstr "<span class=\"count\">(%s)</span> archivieren"
+
+msgid "Archive-job Email template"
+msgstr "E-Mail-Vorlage Stelle archivieren"
+
+msgid "Archived"
+msgstr "Archiviert"
+
+msgid "Archived & rejected jobs"
+msgstr "Archivierte & abgelehnte Stellen"
+
+msgid "Archived Jobs"
+msgstr "Archivierte Stellen"
+
+msgid "Archived jobs"
+msgstr "Archivierte Stellen"
+
+msgid "Are you sure you want to delete this category?"
+msgstr "Möchten Sie diese Kategorie wirklich löschen?"
+
+msgid "Are you sure you want to delete this job type?"
+msgstr "Möchten Sie diese Stellenart wirklich löschen?"
+
+msgid "Are you sure you want to delete this payment plan?"
+msgstr "Möchten Sie diesen Zahlungsplan wirklich löschen?"
+
+msgid "Are you sure you want to reject this job?"
+msgstr "Möchten Sie diese Stelle wirklich ablehnen?"
+
+msgid "Articles posted by  %s "
+msgstr "Von %s veröffentlichte Artikel"
+
+msgid "Attachments"
+msgstr "Anhänge"
+
+msgid "Australian Dollar"
+msgstr "Australischer Dollar"
+
+msgid "Authentication Mail Template"
+msgstr "E-Mail-Vorlage Authentifizierung"
+
+msgid "Authentication mail template"
+msgstr "E-Mail-Vorlage Authentifizierung"
+
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+msgid "Available jobs"
+msgstr "Verfügbare Stellen"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+msgid "Background patterns"
+msgstr "Hintergrundmuster"
+
+msgid "Before"
+msgstr "Vor"
+
+msgid "Blog Sidebar"
+msgstr "Blog-Seitenleiste"
+
+msgid "Body Text Color"
+msgstr "Textkörperfarbe"
+
+msgid "Branding"
+msgstr "Branding"
+
+msgid "Branding image has been uploaded successfully"
+msgstr "Branding-Bild erfolgreich hochgeladen"
+
+msgid "British Pound"
+msgstr "Britisches Pfund"
+
+msgid "Browse"
+msgstr "Durchsuchen"
+
+msgid "Browse ..."
+msgstr "Durchsuchen..."
+
+msgid "Browse..."
+msgstr "Durchsuchen..."
+
+msgid "Button Color"
+msgstr "Button-Farbe"
+
+msgid "COMPANIES"
+msgstr "Firmen"
+
+msgid "COMPANY LOGO"
+msgstr "Firmenlogo"
+
+msgid "COMPANY NAME"
+msgstr "Firmenname"
+
+msgid "COMPANY PROFILE"
+msgstr "Firmenprofil"
+
+msgid "COMPANY WEBSITE"
+msgstr "Firmen-Website"
+
+msgid "CONTRACT TYPE"
+msgstr "Vertragsart"
+
+msgid "CUSTOMIZE"
+msgstr "Anpassen"
+
+msgid "Can't delete payment plan"
+msgstr "Zahlungsplan kann nicht gelöscht werden"
+
+msgid "Canadian Dollar"
+msgstr "Kanadischer Dollar"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Cancel reply"
+msgstr "Antwort abbrechen"
+
+msgid "Cash"
+msgstr "Zahlung"
+
+msgid "Cash Message"
+msgstr "Zahlungsnachricht"
+
+msgid "Categories"
+msgstr "Kategorien"
+
+msgid "Categories are also used by your users to filter jobs"
+msgstr "Kategorien werden auch von Benutzern verwendet, um Stellen zu filtern"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Change"
+msgstr "Ändern"
+
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+msgid "Change the appearance of your website"
+msgstr "Ändern Sie die Erscheinung Ihrer Website"
+
+msgid "Change the fonts, sizes and colors for the text on your website"
+msgstr ""
+"Ändern Sie die Schriftarten, -größen und -farben für den Text auf Ihrer "
+"Website"
+
+msgid "Choose a Language"
+msgstr "Sprache wählen"
+
+msgid "Choose one of our color schemes."
+msgstr "Wählen Sie eines unserer Farbschemen."
+
+msgid "Choose the pricing plan that fits your needs"
+msgstr "Wählen Sie den Preisplan aus, der Ihren Bedürfnissen entspricht"
+
+msgid "Color Schemes"
+msgstr "Farbschemen"
+
+msgid "Colors"
+msgstr "Farben"
+
+msgid "Columns"
+msgstr "Spalten"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Comment closed!"
+msgstr "Kommentar geschlossen!"
+
+msgid "Companies"
+msgstr "Firmen"
+
+msgid "Company"
+msgstr "Firma"
+
+msgid "Company Details"
+msgstr "Firmenangaben"
+
+msgid "Company Email"
+msgstr "Firmen-E-Mail"
+
+msgid "Company Logo"
+msgstr "Firmenlogo"
+
+msgid "Company Name"
+msgstr "Firmenname"
+
+msgid "Company Profile"
+msgstr "Firmenprofil"
+
+msgid "Company Website"
+msgstr "Firmen-Website"
+
+msgid "Company logo"
+msgstr "Firmenlogo"
+
+msgid "Company logo has been uploaded successfully!"
+msgstr "Das Firmenlogo wurde erfolgreich hochgeladen!"
+
+msgid "Company logo with default size"
+msgstr "Firmenlogo in Standardgröße"
+
+msgid "Company name"
+msgstr "Firmenname"
+
+msgid "Company website"
+msgstr "Firmenwebsite"
+
+msgid "Congratulations!"
+msgstr "Glückwunsch!"
+
+msgid "Congratulations! You have registered successfully to %s."
+msgstr "Glückwunsch! Sie haben sich erfolgreich für %s registriert."
+
+msgid "Contact Widget"
+msgstr "Kontakt-Widget"
+
+msgid "Content"
+msgstr "Inhalt"
+
+msgid "Content Options"
+msgstr "Inhaltsoptionen"
+
+msgid "Continue"
+msgstr "Weiter"
+
+msgid "Contract Type"
+msgstr "Vertragsart"
+
+msgid "Contract types"
+msgstr "Vertragsarten"
+
+msgid "Copyright Information"
+msgstr "Copyright-Informationen"
+
+msgid "Copyright information"
+msgstr "Copyright-Informationen"
+
+msgid "Currency"
+msgstr "Währung"
+
+msgid "Currency Code"
+msgstr "Währungscode"
+
+msgid "Currency Sign"
+msgstr "Währungszeichen"
+
+msgid "Currency Sign Position"
+msgstr "Position des Währungszeichens"
+
+msgid "Custom style"
+msgstr "Benutzerdefinierter Stil"
+
+msgid "Customize"
+msgstr "Anpassen"
+
+msgid "DRAFT"
+msgstr "Entwurf"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Data is fetched successfully"
+msgstr "Daten erfolgreich abgerufen"
+
+msgid "Default company logo"
+msgstr "Standard-Firmenlogo"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delete Sample Data"
+msgstr "Beispieldaten löschen"
+
+msgid "Delete sample data"
+msgstr "Beispieldaten löschen"
+
+msgid "Describe your job and your company"
+msgstr "Beschreiben Sie Ihre Stelle und Ihr Unternehmen"
+
+msgid "Describe your job in a few paragraphs "
+msgstr "Beschreiben Sie Ihre Stelle in ein paar Abschnitten"
+
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Die Details sind unten zu sehen. Der Importer versucht es jetzt erneut mit "
+"einem anderen Parser..."
+
+msgid "Disable"
+msgstr "Deaktivieren"
+
+msgid "Disable Customization"
+msgstr "Anpassung deaktivieren"
+
+msgid "Don't have time now?"
+msgstr "Haben Sie jetzt keine Zeit?"
+
+msgid "Draft"
+msgstr "Entwurf"
+
+msgid "Drop your widgets here to add them below the filter list in job page"
+msgstr ""
+"Ziehen Sie Ihre Widgets hier her, um sie unter der Filterliste auf der "
+"Stellenseite einzufügen"
+
+msgid ""
+"Drop your widgets here to append them on top of the filter list in job page"
+msgstr ""
+"Ziehen Sie Ihre Widgets hier her, um sie oben an der Filterliste auf der "
+"Stellenseite hinzuzufügen"
+
+msgid "Duration"
+msgstr "Dauer"
+
+msgid "EDIT THIS JOB"
+msgstr "DIESE STELLE BEARBEITEN"
+
+msgid "EMAIL ADDRESS"
+msgstr "E-Mail-Adresse"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Edit Application"
+msgstr "Bewerbung bearbeiten"
+
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+msgid "Edit Job"
+msgstr "Stelle bearbeiten"
+
+msgid "Edit Job Type"
+msgstr "Stellenart bearbeiten"
+
+msgid "Edit Plan"
+msgstr "Plan bearbeiten"
+
+msgid "Edit this job"
+msgstr "Stelle bearbeiten"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+msgid "Email invalid"
+msgstr "Ungültige E-Mail"
+
+msgid "Email reminder"
+msgstr "E-Mail-Erinnerung"
+
+msgid ""
+"Email templates for authentication process. You can use placeholders to "
+"include some specific content."
+msgstr ""
+"E-Mail-Vorlagen zum Verifizierungsvorgang. Sie können Platzhalter verwenden, "
+"um spezifische Inhalte einzubinden."
+
+msgid ""
+"Email templates used for job-related event. You can use placeholders to "
+"include some specific content."
+msgstr ""
+"E-Mail-Vorlagen für stellenbezogenes Ereignis. Sie können Platzhalter "
+"verwenden, um spezifische Inhalte einzubinden."
+
+msgid "Employer email"
+msgstr "Arbeitgeber-E-Mail"
+
+msgid "Enable"
+msgstr "Aktivieren"
+
+msgid ""
+"Enable this will make every new job pending until you review and approve it "
+"manually."
+msgstr ""
+"Aktivieren Sie diese Option, um jede neue Stelle als ausstehend "
+"einzustellen, bis Sie sie überprüfen und manuell genehmigen."
+
+msgid ""
+"Enabling this will allow you to test payment without charging your account ."
+msgstr ""
+"Durch die Aktivierung können Sie die Zahlung testen, ohne eine Einzahlung "
+"auf Ihr Konto zu tätigen."
+
+msgid "Engine Settings"
+msgstr "Engine-Einstellungen"
+
+msgid "Enter a city and country or leave it blank"
+msgstr "Geben Sie eine Stadt und ein Land ein oder lassen Sie das Feld leer"
+
+msgid "Enter a keyword"
+msgstr "Geben Sie ein Schlagwort ein"
+
+msgid "Enter a keyword ..."
+msgstr "Geben Sie ein Schlagwort ein..."
+
+msgid "Enter a location"
+msgstr "Geben Sie einen Standort ein"
+
+msgid "Enter a name for your plan"
+msgstr "Geben Sie einen Namen für Ihren Plan ein"
+
+msgid "Enter a short title for your job"
+msgstr "Geben Sie eine kurze Bezeichnung für Ihre Stelle ein"
+
+msgid "Enter category name"
+msgstr "Kategorienamen eingeben"
+
+msgid "Enter language name"
+msgstr "Sprachenname eingeben"
+
+msgid "Enter license key"
+msgstr "Lizenzschlüssel eingeben"
+
+msgid "Enter the language's name"
+msgstr "Geben Sie den Namen der Sprache ein"
+
+msgid "Enter the name of your currency"
+msgstr "Geben Sie den Namen Ihrer Währung ein"
+
+msgid "Enter your PayPal email address "
+msgstr "Geben Sie Ihre PayPal-E-Mail-Adresse ein"
+
+msgid "Enter your company name"
+msgstr "Geben Sie Ihren Firmennamen ein"
+
+msgid "Enter your company website"
+msgstr "Geben Sie Ihre Firmen-Website ein"
+
+msgid "Enter your email address"
+msgstr "Geben Sie Ihre E-Mail-Adresse ein"
+
+msgid "Enter your license key on Enginethemes.com"
+msgstr "Bitte geben Sie Ihren Lizenzschlüssel auf Enginethemes.com ein"
+
+msgid "Enter your password"
+msgstr "Geben Sie Ihr Passwort ein"
+
+msgid "Enter your website title "
+msgstr "Geben Sie Ihren Website-Titel ein"
+
+msgid "Enter your website's demonstration"
+msgstr "Geben Sie den Vorstellungstext Ihrer Website ein"
+
+msgid "Error #404"
+msgstr "Fehler #404"
+
+msgid "Error 404"
+msgstr "Fehler 404"
+
+msgid "Error when trying to add new job category!"
+msgstr ""
+"Beim Hinzufügen einer neuen Stellenkategorie ist ein Fehler aufgetreten!"
+
+msgid "Error when trying to add new job type!"
+msgstr "Fehler beim Hinzufügen einer neuen Stellenart!"
+
+msgid "Error when trying to update job type!"
+msgstr "Fehler beim Versuch, die Stellenart zu aktualisieren!"
+
+msgid "Error when updating settings."
+msgstr "Fehler beim Aktualisieren der Einstellungen."
+
+msgid "Error!"
+msgstr "Fehler!"
+
+msgid "Euro"
+msgstr "Euro"
+
+msgid "FREE"
+msgstr "KOSTENLOS"
+
+msgid "Facebook URL"
+msgstr "Facebook-URL"
+
+msgid "Failed to delete sample data!"
+msgstr "Löschen der Beispieldaten fehlgeschlagen!"
+
+msgid "Failed to get user data"
+msgstr "Abrufen der Benutzerdaten fehlgeschlagen"
+
+msgid "Failed to send email"
+msgstr "Senden der E-Mail fehlgeschlagen"
+
+msgid "Failed to update user data!"
+msgstr "Die Benutzerdaten konnten nicht aktualisiert werden!"
+
+msgid "Featured"
+msgstr "Vorgestellt"
+
+msgid "Featured Job"
+msgstr "Vorgestellte Stelle"
+
+msgid "Featured Jobs"
+msgstr "Vorgestellte Stellenausschreibungen"
+
+msgid "File is not exist"
+msgstr "Datei ist nicht vorhanden"
+
+msgid "Find out more"
+msgstr "Mehr erfahren"
+
+msgid "Finish Wizard"
+msgstr "Assistenten abschließen"
+
+msgid "Follow Us"
+msgstr "Folgen Sie uns"
+
+msgid "Footer Background"
+msgstr "Footer-Hintergrund"
+
+msgid "Forgot Password Mail Template"
+msgstr "E-Mail-Vorlage Passwort vergessen"
+
+msgid "Forgot password mail template"
+msgstr "E-Mail-Vorlage Passwort vergessen"
+
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+msgid "Forgot-password Email template"
+msgstr "E-Mail-Vorlage Passwort vergessen"
+
+msgid "Fraudulent or error!"
+msgstr "Betrügerisch oder fehlerhaft!"
+
+msgid "Full Location"
+msgstr "Vollständiger Standort"
+
+msgid "Full name"
+msgstr "Vollständiger Name"
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "Get a reminder in your inbox"
+msgstr "Erinnerung in Ihrem Posteingang erhalten"
+
+msgid "Go to next step"
+msgstr "Zum nächsten Schritt"
+
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+msgid "Google Checkout"
+msgstr "Google Checkout"
+
+msgid "Google Plus URL"
+msgstr "Google Plus-URL"
+
+msgid "Google analytics"
+msgstr "Google Analytics"
+
+msgid ""
+"Google analytics is a service offered by Google that generates detailed "
+"statistics about the visits to a website."
+msgstr ""
+"Google Analytics ist ein Dienst, der von Google angeboten wird, un "
+"detaillierte Statistiken zu Besuchen auf einer Website generiert."
+
+msgid "Header Background"
+msgstr "Header-Hintergrund"
+
+msgid "Header Color"
+msgstr "Header-Code"
+
+msgid "Heading"
+msgstr "Überschrift"
+
+msgid "Home"
+msgstr "Startseite"
+
+msgid "Hong Kong Dollar"
+msgstr "Hongkong-Dollar"
+
+msgid "Hooray, there is no pending jobs."
+msgstr "Juhu, es gibt keine ausstehenden Stellen."
+
+msgid "How many columns and where the sidebar should be."
+msgstr ""
+"Wie viele Spalten soll Ihre Seite enthalen und wo soll die Seitenleiste "
+"erscheinen."
+
+msgid "How your users pay you for publishing jobs on your website"
+msgstr ""
+"So bezahlen Ihre Benutzer Sie für das Veröffentlichen von Stellen auf Ihrer "
+"Website"
+
+msgid "How your users pay you for publishing jobs on your website."
+msgstr ""
+"So bezahlen Ihre Benutzer Sie für das Veröffentlichen von Stellen auf Ihrer "
+"Website."
+
+msgid "Hyperlink"
+msgstr "Hyperlink"
+
+msgid "Hyperlink Text Color"
+msgstr "Hyperlink-Textfarbe"
+
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Wenn es sich hierbei um einen Fehler handelt, ignorieren Sie diese E-Mail "
+"und es wird nichts passieren."
+
+msgid "Image Files"
+msgstr "Bilddateien"
+
+msgid ""
+"In  Demo mode the 2Checkout order number is changed to '1' which will cause "
+"the hash to fail this. This is intentional so that merchants selling "
+"downloadable products and services can compare the hash to determine whether "
+"to provide a product to a customer"
+msgstr ""
+"Im Demo-Modus wird die 2Checkout-Auftragsnummer in '1' geändert, was dazu "
+"führt, dass der Hash daran scheitert. Dies ist beabsichtigt, sodass Händler, "
+"die herunterladbare Produkte und Dienstleistungen vertreiben, den Hash "
+"vergleichen können, um zu entscheiden, ob ein Produkt einem Kunden angeboten "
+"wird"
+
+msgid "Information has been saved"
+msgstr "Informationen wurden gespeichert"
+
+msgid "Insert Sample Data"
+msgstr "Beispieldaten einfügen"
+
+msgid ""
+"Insert our sample data to see how your website works. We highly recommend "
+"only using this function when your own data has not been posted yet.."
+msgstr ""
+"Fügen Sie unsere Beispieldaten ein, um zu sehen, wie Ihre Website "
+"funktioniert. Es wird dringend empfohlen, diese Funktion nur zu nutzen, wenn "
+"Ihre eigenen Daten noch nicht veröffentlicht wurden."
+
+msgid "Install sample data"
+msgstr "Beispieldaten installieren"
+
+msgid "Invalid Job ID"
+msgstr "Ungültige Stellen-ID"
+
+msgid "Invalid Key"
+msgstr "Ungültiger Schlüssel"
+
+msgid "Invalid email address!"
+msgstr "Ungültige E-Mail-Adresse!"
+
+msgid "Invalid file name!"
+msgstr "Ungültiger Dateiname!"
+
+msgid "Invalid input!"
+msgstr "Ungültige Eingabe!"
+
+msgid "Invalid job ID!"
+msgstr "Ungültige Stellen-ID!"
+
+msgid "Invalid job package ID!"
+msgstr "Ungültige Stellenpaket-ID!"
+
+msgid "Invalid key"
+msgstr "Ungültiger Schlüssel"
+
+msgid "Invalid payment gateway"
+msgstr "Ungültiges Zahlungsgateway"
+
+msgid "Invalid username or password!"
+msgstr "Der Benutzername oder das Passwort ist ungültig!"
+
+msgid "JOB CATEGORIES"
+msgstr "Stellenkategorien"
+
+msgid "JOB CATEGORY"
+msgstr "Stellenkategorie"
+
+msgid "JOB DESCRIPTION"
+msgstr "Stellenbeschreibung"
+
+msgid "JOB DETAILS"
+msgstr "Stellendetails"
+
+msgid "JOB LOCATION"
+msgstr "Arbeitsort"
+
+msgid "JOB STATUS"
+msgstr "Status der Stelle"
+
+msgid "JOB TITLE"
+msgstr "Stellenbezeichnung"
+
+msgid "JOBS"
+msgstr "Stellen"
+
+msgid "Japanese Yen"
+msgstr "Japanischer Yen"
+
+msgid "Job"
+msgstr "Stelle"
+
+msgid "Job Categories"
+msgstr "Stellenkategorien"
+
+msgid "Job Details"
+msgstr "Stellendetails"
+
+msgid "Job Location"
+msgstr "Arbeitsort"
+
+msgid "Job Order"
+msgstr "Auftrag"
+
+msgid "Job Paid"
+msgstr "Stelle bezahlt"
+
+msgid "Job Type"
+msgstr "Stellenart"
+
+msgid "Job Types"
+msgstr "Stellenarten"
+
+msgid "Job author information is incorrect!"
+msgstr "Die Informationen des Stellenverfassers sind nicht richtig!"
+
+msgid "Job category"
+msgstr "Stellenkategorie"
+
+msgid "Job category has been deleted!"
+msgstr "Stellenkategorie wurde gelöscht"
+
+msgid "Job category has been inserted"
+msgstr "Stellenkategorie wurde eingefügt"
+
+msgid "Job category has been updated"
+msgstr "Stellenkategorie wurde aktualisiert"
+
+msgid "Job category is invalid"
+msgstr "Die Stellenkategorie ist ungültig"
+
+msgid "Job description"
+msgstr "Stellenbeschreibung"
+
+msgid "Job location"
+msgstr "Arbeitsort"
+
+msgid "Job status"
+msgstr "Status der Stelle"
+
+msgid "Job title"
+msgstr "Stellenbezeichnung"
+
+msgid "Job type has been deleted!"
+msgstr "Stellenart wurde gelöscht!"
+
+msgid "Job type has been inserted!"
+msgstr "Stellenart wurde eingefügt!"
+
+msgid "Job type is invalid"
+msgstr "Stellenart ist ungültig"
+
+msgid "Job type's color has been updated"
+msgstr "Farbe der Stellenart wurde aktualisiert"
+
+msgid ""
+"Job types are used by the job seekers to filter jobs. E.g: full-time, part-"
+"time, contract…"
+msgstr ""
+"Stellenarten werden von Arbeitssuchenden verwendet, um Stellen zu filtern, z."
+"B. Vollzeit, Teilzeit, Befristeter Vertrag..."
+
+msgid "Job-related Email Templates"
+msgstr "E-Mail-Vorlage Stellenbezogen"
+
+msgid "Job-related email templates"
+msgstr "E-Mail-Vorlage Stellenbezogen"
+
+msgid ""
+"JobEngine comes by default with a few styles you can choose from. You can "
+"also use one of these styles to create a unique personality for job board."
+msgstr ""
+"JobEngine wird standardmäßig mit ein paar Styles geliefert, aus denen Sie "
+"wählen können. Sie können auch einen dieser Styles verwenden, um Ihrer "
+"Stellenbörse einen einzigartigen Charakter zu verleihen."
+
+msgid "Jobs"
+msgstr "Stellen"
+
+msgid "Jobs at %s"
+msgstr "Stellen bei %s"
+
+msgid "Jobs posted by  %s "
+msgstr "Von %s angelegte Stellen"
+
+msgid "Jobs posted under this plan will be featured."
+msgstr "In diesem Plan veröffentlichte Stellen werden vorgestellt."
+
+msgid "Keep your theme up-to-date"
+msgstr "Halten Sie Ihr Theme auf dem neuesten Stand"
+
+msgid "Key is invalid"
+msgstr "Schlüssel ist ungültig"
+
+msgid "LATEST JOBS"
+msgstr "Neueste Stellen"
+
+msgid "LOGIN"
+msgstr "LOGIN"
+
+msgid "LOGOUT"
+msgstr "Logout"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Language name"
+msgstr "Sprachenname"
+
+msgid "Latest Companies"
+msgstr "Neueste Firmen"
+
+msgid "Latest Jobs"
+msgstr "Neueste Stellen"
+
+msgid "Latest Payments"
+msgstr "Letzte Zahlungen"
+
+msgid "Latest jobs"
+msgstr "Neueste Stellen"
+
+msgid "Latitude"
+msgstr "Breitengrad"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Layout Style"
+msgstr "Layout-Stil"
+
+msgid "Leave a Reply to %s"
+msgstr "Eine Antwort für %s hinterlassen"
+
+msgid "Left Sidebar"
+msgstr "Linke Seitenleiste"
+
+msgid "Load More Articles"
+msgstr "Weitere Artikel laden"
+
+msgid "Load More Jobs"
+msgstr "Weitere Stellen laden"
+
+msgid "Load more"
+msgstr "Mehr laden"
+
+msgid "Loading"
+msgstr "Wird geladen"
+
+msgid "Loading successfully!"
+msgstr "Erfolgreich geladen!"
+
+msgid "Loading..."
+msgstr "Wird geladen..."
+
+msgid "Location"
+msgstr "Standort"
+
+msgid "Log out successfully"
+msgstr "Erfolgreich ausgeloggt"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Login failed"
+msgstr "Login fehlgeschlagen"
+
+msgid "Login or create an account"
+msgstr "Einloggen oder Konto erstellen"
+
+msgid "Login successfully"
+msgstr "Login erfolgreich"
+
+msgid "Login to "
+msgstr "Login bei"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Longitude"
+msgstr "Längengrad"
+
+msgid "MD5 False"
+msgstr "MD5 falsch"
+
+msgid "Mailing"
+msgstr "Nachrichtenversand"
+
+msgid "Main Sidebar"
+msgstr "Haupt-Seitenleiste"
+
+msgid "Make this job featured"
+msgstr "Diese Stelle als vorgestellt einstellen"
+
+msgid "Manage how your job board looks and feels."
+msgstr "Legen Sie fest, wie Ihre Stellenbörse aussehen soll."
+
+msgid "Md5 check sum not match!"
+msgstr "Md5-Checksumme stimmt nicht überein!"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Menu display on the footer"
+msgstr "Manüanzeige im Footer"
+
+msgid "Menu display on the header"
+msgstr "Menüanzeige im Header"
+
+msgid "Missing company data"
+msgstr "Fehlende Firmendaten"
+
+msgid "Missing image ID"
+msgstr "Fehlende Bild-ID"
+
+msgid "More companies"
+msgstr "Mehr Firmen"
+
+msgid "NOT READY"
+msgstr "NICHT BEREIT"
+
+msgid "New Application"
+msgstr "Neue Bewerbung"
+
+msgid "New Category Name"
+msgstr "Neuer Kategoriename"
+
+msgid "New Job"
+msgstr "Neue Stelle"
+
+msgid "New Job Type Name"
+msgstr "Neuer Stellenart-Name"
+
+msgid "New Password"
+msgstr "Neues Passwort"
+
+msgid "New Plan"
+msgstr "Neuer Plan"
+
+msgid "New Zealand Dollar"
+msgstr "Neuseeland-Dollar"
+
+msgid "New companies last month"
+msgstr "Neue Firmen im letzten Monat"
+
+msgid "No Plans found"
+msgstr "Keine Pläne gefunden"
+
+msgid "No Plans found in Trash"
+msgstr "Keine Pläne im Papierkorb gefunden"
+
+msgid "No applications found"
+msgstr "Keine Bewerbungen gefunden"
+
+msgid "No applications found in Trash"
+msgstr "Keine Bewerbungen im Papierkorb gefunden"
+
+msgid "No job"
+msgstr "Keine Stelle"
+
+msgid "No job was found"
+msgstr "Es wurde keine Stelle gefunden"
+
+msgid "No jobs found"
+msgstr "Keine Stellen gefunden"
+
+msgid "No jobs found in Trash"
+msgstr "Keine Stellen im Papierkorb gefunden"
+
+msgid "Notes"
+msgstr "Anmerkungen"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "OUR BLOG"
+msgstr "UNSER BLOG"
+
+msgid "OVERVIEW"
+msgstr "Übersicht"
+
+msgid "Old Password"
+msgstr "Altes Passwort"
+
+msgid "Old password is not correct."
+msgstr "Das alte Passwort ist nicht richtig."
+
+msgid "One column"
+msgstr "Eine Spalte"
+
+msgid "Opps! Sorry, no jobs found"
+msgstr "Keine Stellen gefunden"
+
+msgid "Order"
+msgstr "Bestellung"
+
+msgid "Other things to try:"
+msgstr "Sie können auch Folgendes versuchen:"
+
+msgid "Overview"
+msgstr "Übersicht"
+
+msgid "PAID"
+msgstr "BEZAHLT"
+
+msgid "PASSWORD"
+msgstr "Passwort"
+
+msgid "PENDING"
+msgstr "AUSSTEHEND"
+
+msgid "PENDING JOBS"
+msgstr "Ausstehende Stellen"
+
+msgid "POST A JOB"
+msgstr "Stelle anlegen"
+
+msgid "Page"
+msgstr "Seite"
+
+msgid "Page %s"
+msgstr "Seite %s"
+
+msgid "Page Background"
+msgstr "Seitenhintergrund"
+
+msgid "Page Not found :("
+msgstr "Seite nicht gefunden :("
+
+msgid "Page Options"
+msgstr "Seitenoptionen"
+
+msgid "Parent Category"
+msgstr "Übergeordnete Kategorie"
+
+msgid "Parent Category:"
+msgstr "Übergeordnete Kategorie:"
+
+msgid "Parent Job Type"
+msgstr "Übergeordnete Stellenart"
+
+msgid "Parent Job Type:"
+msgstr "Übergeordnete Stellenart:"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Password reset is not allowed for this user"
+msgstr "Das Zurücksetzen des Passworts ist für diesen Benutzer nicht erlaubt"
+
+msgid "Password updated successfully!"
+msgstr "Ihr Passwort wurde erfolgreich aktualisiert!"
+
+msgid "Passwords does not match"
+msgstr "Die Passwörter stimmen nicht überein"
+
+msgid "Pay with your 2Checkout account."
+msgstr "Mit Ihrem 2Checkout-Konto bezahlen."
+
+msgid "Payment"
+msgstr "Zahlung"
+
+msgid "Payment API is invalid"
+msgstr "Die Zahlungs-API ist ungültig"
+
+msgid "Payment Added!"
+msgstr "Zahlung hinzugefügt!"
+
+msgid "Payment Follow Widget"
+msgstr "Payment Follow Widget"
+
+msgid "Payment Gateway"
+msgstr "Zahlungsgateway"
+
+msgid "Payment Gateways"
+msgstr "Zahlungsgateways"
+
+msgid "Payment Plan"
+msgstr "Zahlungsplan"
+
+msgid "Payment Plans"
+msgstr "Zahlungspläne"
+
+msgid "Payment Saved!"
+msgstr "Zahlung gespeichert!"
+
+msgid "Payment Test Mode"
+msgstr "Zahlungs-Testmodus"
+
+msgid "Payment failed, friend!"
+msgstr "Zahlung fehlgeschlagen!"
+
+msgid "Payment name cannot be empty"
+msgstr "Zahlungsname darf nicht leer sein"
+
+msgid "Payment pending"
+msgstr "Zahlung ausstehend"
+
+msgid "Payment plan has been deleted"
+msgstr "Zahlungsplan wurde gelöscht"
+
+msgid "Payment plans have been sorted"
+msgstr "Zahlungspläne wurden geklärt"
+
+msgid "Paypal"
+msgstr "Paypal"
+
+msgid "Paypal supported currencies"
+msgstr "Von Paypal unterstützte Währungen"
+
+msgid "Pending"
+msgstr "Ausstehend"
+
+msgid "Pending Job"
+msgstr "Ausstehende Stellen"
+
+msgid "Pending Jobs"
+msgstr "Ausstehende Stellen"
+
+msgid "Pending job"
+msgstr "Ausstehende Stelle"
+
+msgid "Pending jobs"
+msgstr "Ausstehende Stellen"
+
+msgid "Permission Denied!"
+msgstr "Zugriff verweigert!"
+
+msgid "Place your custom style (css) into this box"
+msgstr "Schreiben Sie Ihren benutzerdefinierten Stil (css) in dieses Feld"
+
+msgid "Plan"
+msgstr "Plan"
+
+msgid "Plans"
+msgstr "Pläne"
+
+msgid "Please check your email inbox to reset password."
+msgstr ""
+"Bitte überprüfen Sie Ihr E-Mail-Postfach, um das Passwort zurückzusetzen."
+
+msgid "Please enter a valid URL."
+msgstr "Bitte geben Sie eine gültige URL ein."
+
+msgid "Please enter a valid email address "
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+
+msgid "Please enter a valid email address."
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+
+msgid "Please enter a valid number."
+msgstr "Bitte geben Sie eine gültige Nummer ein."
+
+msgid "Please enter all required information to reset your password."
+msgstr ""
+"Bitte geben Sie alle erforderlichen Informationen ein, um Ihr Passwort "
+"zurückzusetzen."
+
+msgid "Please enter only digits."
+msgstr "Bitte geben Sie nur Ziffern ein."
+
+msgid "Please enter password !"
+msgstr "Bitte geben Sie Ihr Passwort ein!"
+
+msgid "Please enter the same value again."
+msgstr "Bitte geben Sie denselben Wert erneut ein"
+
+msgid "Please enter your email address"
+msgstr "Bitte geben Sie Ihre E-Mail-Adresse ein"
+
+msgid "Please enter your name"
+msgstr "Bitte geben Sie Ihren Namen ein"
+
+msgid "Please enter your new password"
+msgstr "Bitte geben Sie Ihr neues Passwort ein"
+
+msgid "Please enter your username"
+msgstr "Bitte geben Sie Ihren Benutzernamen ein"
+
+msgid "Please enter your username !"
+msgstr "Bitte geben Sie Ihren Benutzernamen ein!"
+
+msgid "Please enter your username or email"
+msgstr "Bitte geben Sie Ihren Benutzernamen oder Ihre E-Mail ein"
+
+msgid "Please enter your valid email address"
+msgstr "Bitte geben Sie Ihre gültige E-Mail-Adresse ein"
+
+msgid "Please fill out the form below "
+msgstr "Bitte füllen Sie die Form unten aus"
+
+msgid "Please retype your password !"
+msgstr "Bitte geben Sie Ihr Passwort erneut ein!"
+
+msgid "Please type your password !"
+msgstr "Bitte geben Sie Ihr Passwort ein!"
+
+msgid "Please type your username !"
+msgstr "Bitte geben Sie Ihren Benutzernamen ein!"
+
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+"Mögliche Ursache: Eventuell hat Ihr Host die mail()-Funktion deaktiviert..."
+
+msgid "Post a Job"
+msgstr "Stelle anlegen"
+
+msgid "Post a job"
+msgstr "Stelle anlegen"
+
+msgid "Posted Jobs"
+msgstr "Veröffentlichte Stellen"
+
+msgid "Posts tagged  \"%s \""
+msgstr "Beiträge getaggt mit \"%s \""
+
+msgid "Preview"
+msgstr "Vorschau"
+
+msgid "Price"
+msgstr "Preis"
+
+msgid "Privacy"
+msgstr "Datenschutz"
+
+msgid "Probably the best thing in the world."
+msgstr "Das wahrscheinlich Wichtigste"
+
+msgid "Problem occurred while updating user field"
+msgstr ""
+"Während der Aktualisierung des Benutzerfelds ist ein Fehler aufgetreten"
+
+msgid "Process Payment"
+msgstr "Zahlung verarbeiten"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "READ MORE"
+msgstr "WEITERLESEN"
+
+msgid "REGISTER"
+msgstr "REGISTRIEREN"
+
+msgid "REJECT"
+msgstr "Ablehnen"
+
+msgid "REJECTED"
+msgstr "ABGELEHNT"
+
+msgid "RETYPE YOUR PASSWORD"
+msgstr "Geben Sie Ihr Passwort erneut ein"
+
+msgid "Recent Job Location "
+msgstr "Aktueller Arbeitsort"
+
+msgid "Register"
+msgstr "Registrieren"
+
+msgid "Register Email template"
+msgstr "E-Mail-Vorlage Registrieren"
+
+msgid "Register Mail Template"
+msgstr "E-Mail-Vorlage Registrieren"
+
+msgid "Register failed "
+msgstr "Registrierung fehlgeschlagen"
+
+msgid "Register mail template"
+msgstr "E-Mail-Vorlage Registrieren"
+
+msgid "Register to "
+msgstr "Registrieren für"
+
+msgid "Registered successfully."
+msgstr "Erfolgreich registriert."
+
+msgid "Reject"
+msgstr "Ablehnen"
+
+msgid "Reject <span class=\"count\">(%s)</span>"
+msgstr "<span class=\"count\">(%s)</span> ablehnen"
+
+msgid "Reject-job Email template"
+msgstr "E-Mail-Vorlage Stelle ablehnen"
+
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+msgid "Rejected Jobs"
+msgstr "Abgelehnte Stellen"
+
+msgid "Rejected jobs"
+msgstr "Abgelehnte Stellen"
+
+msgid "Remind-job Email template"
+msgstr "E-Mail-Vorlage An Stelle erinnern"
+
+msgid "Remote file is incorrect size"
+msgstr "Falsche Größer der Remote File"
+
+msgid "Remote file is too large, limit is %s"
+msgstr "Die Remote File ist zu groß, die Grenze ist %s"
+
+msgid "Remote server did not respond"
+msgstr "Der Remote Server hat nicht geantwortet"
+
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Der Remote Server hat die Fehlerantwort %1$d %2$s zurückgegeben"
+
+msgid "Remove Featured"
+msgstr "Vorgestellt entfernen"
+
+msgid "Renew"
+msgstr "Erneuern"
+
+msgid "Renew this Job"
+msgstr "Diese Stelle erneuern"
+
+msgid "Reply <span class=\"icon\" data-icon=\"R\"></span>"
+msgstr "Antworten <span class=\"icon\" data-icon=\"R\"></span>"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+msgid "Reset Password Mail Template"
+msgstr "E-Mail-Vorlage Passwort zurücksetzen"
+
+msgid "Reset password mail template"
+msgstr "E-Mail-Vorlage Passwort zurücksetzen"
+
+msgid "Reset to default"
+msgstr "Auf Standard zurücksetzen"
+
+msgid "Reset-password Email template"
+msgstr "E-Mail-Vorlage Passwort zurücksetzen"
+
+msgid "Return to Home"
+msgstr "Zurück zur Startseite"
+
+msgid "Retype New Password"
+msgstr "Geben Sie das neue Passwort erneut ein"
+
+msgid "Retype Password"
+msgstr "Passwort neu eingeben"
+
+msgid "Retype your password"
+msgstr "Geben Sie Ihr Passwort erneut ein"
+
+msgid "Revenue Made"
+msgstr "Erzielter Umsatz"
+
+msgid "Right Sidebar"
+msgstr "Rechte Seitenleiste"
+
+msgid "SAVE CHANGE"
+msgstr "Änderung speichern"
+
+msgid "SETTINGS"
+msgstr "Einstellungen"
+
+msgid "SETUP WIZARD"
+msgstr "Setup-Assistent"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Save Change"
+msgstr "Änderung speichern"
+
+msgid "Save Currency"
+msgstr "Währung speichern"
+
+msgid "Save Plan"
+msgstr "Plan speichern"
+
+msgid "Save change"
+msgstr "Änderung speichern"
+
+msgid "Save this job"
+msgstr "Diese Stelle speicehern"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Search Applications"
+msgstr "Bewerbungen suchen"
+
+msgid "Search Categories"
+msgstr "Kategorien durchsuchen"
+
+msgid "Search Job Types"
+msgstr "Stellenarten suchen"
+
+msgid "Search Jobs"
+msgstr "Stellen suchen"
+
+msgid "Search Plans"
+msgstr "Pläne durchsuchen"
+
+msgid "Search companies..."
+msgstr "Firmen suchen..."
+
+msgid "Search jobs..."
+msgstr "Stellen durchsuchen..."
+
+msgid "Search results for \"%s \""
+msgstr "Suchergebnisse für \"%s \""
+
+msgid "Second Sidebar"
+msgstr "Zweite Seitenleiste"
+
+msgid "Security error!"
+msgstr "Sicherheitsfehler!"
+
+msgid "Select"
+msgstr "Auswählen"
+
+msgid "Select a category for your job"
+msgstr "Kategorie für Ihre Stelle wählen"
+
+msgid "Select the correct type for your job"
+msgstr "Wählen Sie die richtige Art für Ihre Stelle"
+
+msgid "Select the currency you want to use in your job board"
+msgstr ""
+"Wählen Sie die Währung, die Sie in Ihrer Stellenbörse verwenden möchten"
+
+msgid "Select the language you want to use for your website."
+msgstr ""
+"Wählen Sie die Sprache aus, die Sie für Ihre Website verwenden möchten."
+
+msgid "Send a message to this company"
+msgstr "Nachricht an diese Firma senden"
+
+msgid "Send payment and submit your job"
+msgstr "Zahlung senden und Stelle übermitteln"
+
+msgid "Send payment via the biggest payment gateway, Paypal."
+msgstr "Zahlung über das größte Zahlungsgateway, Paypal, senden."
+
+msgid "Send payment with your 2Checkout account."
+msgstr "Zahlung mit Ihrem 2Checkout-Konto senden."
+
+msgid "Send via Email"
+msgstr "Per E-Mail senden"
+
+msgid ""
+"Sent to employers to notify that one of their jobs has been archived due to "
+"expiration or manual administrative action."
+msgstr ""
+"Wird an Arbeitgeber gesendet, um sie darüber zu informieren, dass eine ihrer "
+"Stellen archiviert wurde, da sie ausgelaufen ist, oder durch manuelle "
+"administrative Aktion archiviert wurde."
+
+msgid ""
+"Sent to employers to notify that one of their posted jobs has been published."
+msgstr ""
+"Wird an Arbeitgeber gesendet, um sie zu informieren, dass eine ihrer "
+"angelegten Stellen veröffentlicht wurde."
+
+msgid ""
+"Sent to employers to notify that one of their posted jobs has been rejected."
+msgstr ""
+"Wird an Arbeitgeber gesendet, um sie zu informieren, dass eine ihrer "
+"angelegten Stellen abgelehnt wurde."
+
+msgid "Sent to employers when a candidate apply for their jobs."
+msgstr ""
+"Wird an Arbeitgeber gesendet, wenn sich ein Kandidat für ihre Stellen "
+"bewirbt."
+
+msgid "Sent to job seekers when they want to save a job for viewing later."
+msgstr ""
+"Wird an Arbeitssuchende gesendet, wenn sie eine Stelle zur späteren Ansicht "
+"speichern."
+
+msgid "Set Featured"
+msgstr "Als Vorgestellt einstellen"
+
+msgid ""
+"Setting different payment plans with different settings for your employers "
+"to choose from when posting new jobs."
+msgstr ""
+"Einstellung verschiedener Zahlungspläne mit verschiedenen Einstellungen, aus "
+"denen Ihre Arbeitgeber wählen können, wenn sie neue Stellen anlegen."
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Setup Wizard"
+msgstr "Setup-Assistent"
+
+msgid "Share"
+msgstr "Teilen"
+
+msgid "Share on Facebook"
+msgstr "Auf Facebook teilen"
+
+msgid "Singapore Dollar"
+msgstr "Singapur-Dollar"
+
+msgid "Site Customization"
+msgstr "Seitenanpassung"
+
+msgid "Site demonstration"
+msgstr "Vorstellung der Seite"
+
+msgid "Site description"
+msgstr "Seitenbeschreibung"
+
+msgid "Site language"
+msgstr "Seitensprache"
+
+msgid "Site layout"
+msgstr "Seitenlayout"
+
+msgid "Site logo"
+msgstr "Seitenlogo"
+
+msgid "Site mobile icon"
+msgstr "Seiten-Mobilsymbol"
+
+msgid "Site title"
+msgstr "Seitentitel"
+
+msgid "Small thumbnail for job list items"
+msgstr "Kleines Thumbnail für Artikel der Stellenliste"
+
+msgid "Social Links"
+msgstr "Links zu sozialen Netwerken"
+
+msgid "Social links are displayed in the footer and in your blog sidebar."
+msgstr ""
+"Links zu sozialen Netzwerken werden im Footer und in Ihrer Seitenleiste "
+"angezeigt."
+
+msgid "Sorry! The job you requested is not available now!"
+msgstr "Sorry! Die angeforderte Stelle steht derzeit nicht zur Verfügung!"
+
+msgid ""
+"Sorry, but the page you were trying to view does not exist.</p><p>It looks "
+"like this was the result of either:</p><p>- a mistyped address<br />\t- an "
+"out-of-date link"
+msgstr ""
+"Entschuldigung, die Seite, die Sie sich ansehen wollten, existiert nicht.</"
+"p><p>Mögliche Ursachen sind entweder:</p><p>- eine falsch geschriebene "
+"Adresse<br />\t- ein veralteter Link"
+
+msgid "Step 1 :"
+msgstr "Schritt 1:"
+
+msgid "Step 2 :"
+msgstr "Schritt 2:"
+
+msgid "Step 3 :"
+msgstr "Schritt 3:"
+
+msgid "Step-by-step guide to configure your website"
+msgstr "Schritt-für-Schritt-Hilfe für die Konfiguration Ihrer Website"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Submit"
+msgstr "Übermitteln"
+
+msgid "Submit Comment"
+msgstr "Kommentar absenden"
+
+msgid "Success, friend"
+msgstr "Erfolgreich"
+
+msgid "Swiss Franc"
+msgstr "Schweizer Franken"
+
+msgid "THIS IS A DRAFT."
+msgstr "DIES IST EIN ENTWURF."
+
+msgid "THIS JOB IS %s."
+msgstr "DIESE STELLE IST %s."
+
+msgid "THIS JOB IS ARCHIVED."
+msgstr "DIESE STELLE WURDE ARCHIVIERT."
+
+msgid "THIS JOB IS PENDING."
+msgstr "DIESE STELLE IST AUSSTEHEND."
+
+msgid "THIS JOB IS PENDING. YOU CAN APPROVE OR REJECT IT."
+msgstr "DIESE STELLE IST AUSSTEHEND. SIE KÖNNEN SIE GENEHMIGEN ODER ABLEHNEN."
+
+msgid "THIS JOB IS REJECTED."
+msgstr "DIESE STELLE WURDE ABGELEHNT."
+
+msgid "TRANSACTIONS"
+msgstr "Transaktionen"
+
+msgid "Terms & Condition"
+msgstr "Geschäftsbedingungen"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "The email could not be sent."
+msgstr "Die E-Mail konnte nicht gesendet werden."
+
+msgid "The email has been sent to "
+msgstr "Die E-Mail wurde gesendet an"
+
+msgid "The email has been sent."
+msgstr "Die E-Mail wurde gesendet."
+
+msgid "The file was uploaded successfully"
+msgstr "Die Datei wurde erfolgreich hochgeladen"
+
+msgid "The job has been approved!"
+msgstr "Die Stelle wurde genehmigt!"
+
+msgid "The job has been archived!"
+msgstr "Die Stelle wurde archiviert!"
+
+msgid "The job has been changed successfully!"
+msgstr "Die Stelle wurde erfolgreich geändert!"
+
+msgid "The job has been rejected!"
+msgstr "Die Stelle wurde abgelehnt!"
+
+msgid "The sidebar for blog in the site"
+msgstr "Die Seitenleiste für den Blog auf der Seite"
+
+msgid "There are no registered companies."
+msgstr "Es gibt keine registrierten Firmen."
+
+msgid "There is a request to reset the password for the following account:"
+msgstr ""
+"Für das folgende Konto liegt eine Anfrage zum Zurücksetzen des Passworts vor:"
+
+msgid "There is an error occurred"
+msgstr "Es ist ein Fehler aufgetreten"
+
+msgid "There is an error occurred : "
+msgstr "Es ist ein Fehler aufgetreten:"
+
+msgid "There is no added plan yet"
+msgstr "Es wurde noch kein Plan hinzugefügt"
+
+msgid "There is no payment in this period."
+msgstr "Es gibt keine Zahlung in diesem Zeitraum."
+
+msgid "There is no payments yet."
+msgstr "Es wurden noch keine Zahlungen geleistet."
+
+msgid "There is no posts yet."
+msgstr "Es gibt noch keine Veröffentlichungen."
+
+msgid ""
+"There is something wrong in the mailing process. Please contact the "
+"administrators for more information!"
+msgstr ""
+"Beim Vorgang des Nachrichtenversands stimmt etwas nicht. Bitte kontaktieren "
+"Sie für weitere Informationen den Administrator!"
+
+msgid "There was a problem with your upload."
+msgstr "Bei Ihrem Upload ist ein Problem aufgetreten."
+
+msgid "There was an error when reading this WXR file"
+msgstr "Beim Lesen dieser WXR-Datei ist ein Fehler aufgetreten"
+
+msgid "There was no changes in your translation."
+msgstr "Es wurden keine Änderungen an Ihrer Übersetzung vorgenommen."
+
+msgid "This copyright information will appear in the footer."
+msgstr "Diese Copyright-Informationen werden im Footer erscheinen."
+
+msgid "This description will appear next to your website logo in the header."
+msgstr "Die Beschreibung erscheint neben Ihrem Website-Logo im Header."
+
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Dies scheint keine WXR-Datei zu sein, fehlende/ungültige WXR-Versionsnummer"
+
+msgid "This email address already exists !"
+msgstr "Diese E-Mail-Adresse existiert bereits!"
+
+msgid "This email address has already been used to apply for this job."
+msgstr ""
+"Diese E-Mail-Adresse wurde bereits für die Bewerbung auf diese Stelle "
+"verwendet."
+
+msgid "This email address was not found."
+msgstr "Diese E-Mail-Adresse wurde nicht gefunden."
+
+msgid "This field cannot be blank!"
+msgstr "Dieses Feld darf nicht leer sein!"
+
+msgid "This field is required."
+msgstr "Dies ist ein Pflichtfeld."
+
+msgid ""
+"This icon will be used as launcher icons for iPhone and Android smartphones "
+"and also as the website favicon. The image dimensions should be "
+"<strong>57x57px</strong>."
+msgstr ""
+"Dieses Symbol wird als Startsymbol für iPhone- und Android-Smartphones, "
+"sowie als Website-Favicon verwendet. Die Bildabmessungen sollten "
+"<strong>57x57px</strong> sein."
+
+msgid "This job is not available for application yet"
+msgstr "Diese Stelle ist noch nicht für Bewerbungen verfügbar"
+
+msgid "This job is not available for application yet!"
+msgstr "Diese Stelle ist noch nicht für Bewerbungen verfügbar"
+
+msgid ""
+"This logo will be used as the default logo for any company posting job on "
+"your website without uploading their own logos. The logo should be a square "
+"image."
+msgstr ""
+"Dieses Logo wird als Standardlogo für Firmen verwendet, die eine Stelle "
+"veröffentlichen, ohne ein eigenes Logo hochzuladen. Das Logo sollte ein "
+"quadratisches Bild sein."
+
+msgid "This user is not found."
+msgstr "Dieser Benutzer wurde nicht gefunden."
+
+msgid "To reset your password, visit the following link:"
+msgstr "Um Ihr Passwort zurückzusetzen, besuchen Sie den folgenden Link:"
+
+msgid "Toggle Editor"
+msgstr "Editor umschalten"
+
+msgid "Total Companies"
+msgstr "Firmen insgesamt"
+
+msgid "Transactions"
+msgstr "Transaktionen"
+
+msgid "Translate a language"
+msgstr "Sprache übersetzen"
+
+msgid "Translation saved! "
+msgstr "Übersetzung gespeichert!"
+
+msgid "Translator"
+msgstr "Übersetzer"
+
+msgid "Tweet this job"
+msgstr "Diese Stelle tweeten"
+
+msgid "Twitter Account"
+msgstr "Twitter-Konto"
+
+msgid "Twitter URL"
+msgstr "Twitter-URL"
+
+msgid "Two columns with left sidebar"
+msgstr "Zwei Spalten mit linker Seitenleiste"
+
+msgid "Two columns with right sidebar"
+msgstr "Zwei Spalten mit rechter Seitenleiste"
+
+msgid "Type the translation in your language"
+msgstr "Geben Sie die Übersetzung in Ihrer Sprache ein"
+
+msgid "Typography"
+msgstr "Typographie"
+
+msgid "UNPAID"
+msgstr "UNBEZAHLT"
+
+msgid "UPDATE"
+msgstr "Update"
+
+msgid "USER NAME"
+msgstr "Benutzername"
+
+msgid "USERNAME or EMAIL ADDRESS"
+msgstr "Benutzername oder E-Mail-Adresse"
+
+msgid "Unpaid"
+msgstr "Unbezahlt"
+
+msgid "Unset featured status"
+msgstr "Vorgestellten Status aufheben"
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Update Category"
+msgstr "Kategorie aktualisieren"
+
+msgid "Update Job Type"
+msgstr "Stellenart aktualisieren"
+
+msgid "Upload Default Company Logo"
+msgstr "Standard-Firmen-Logo hochladen"
+
+msgid "Upload Logo"
+msgstr "Logo hochladen"
+
+msgid "Upload Mobile Icon"
+msgstr "Mobil-Symbol hochladen"
+
+msgid "Uploaded file not found"
+msgstr "Hochgeladene Datei nicht gefunden"
+
+msgid "User name"
+msgstr "Benutzername"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Username is invalid"
+msgstr "Benutzername ist ungültig"
+
+msgid "Username or email address"
+msgstr "Benutzername oder E-Mail-Adresse"
+
+msgid "Username: %s"
+msgstr "Benutzername: %s"
+
+msgid "Valid!"
+msgstr "Gültig!"
+
+msgid "View %s website"
+msgstr "%s-Website anzeigen"
+
+msgid "View All Companies"
+msgstr "Alle Firmen anzeigen"
+
+msgid "View Application"
+msgstr "Bewerbung anzeigen"
+
+msgid "View Job"
+msgstr "Stelle anzeigen"
+
+msgid "View Plan"
+msgstr "Plan anzeigen"
+
+msgid "View all Payment"
+msgstr "Alle Zahlungen anzeigen"
+
+msgid "View all posted jobs in %s"
+msgstr "Alle in %s veröffentlichten Stellen ansehen"
+
+msgid "View all posts by %s "
+msgstr "Alle Veröffentlichungen von %s anzeigen"
+
+msgid "View all posts in %s"
+msgstr "Alle Veröffentlichungen in %s anzeigen"
+
+msgid "View jobs posted by "
+msgstr "Stellen anzeigen von"
+
+msgid "View jobs posted by %s"
+msgstr "Von %s angelegte Stellen anzeigen"
+
+msgid "View more details"
+msgstr "Weitere Details anzeigen"
+
+msgid "View more details of %s"
+msgstr "Mehr Details für %s anzeigen"
+
+msgid "View post %s"
+msgstr "Stelle %s ansehen"
+
+msgid "View posted jobs by %s"
+msgstr "Von %s veröffentlichte Stellen anzeigen"
+
+msgid "View posted jobs in %s "
+msgstr "In %s angelegte Stellen anzeigen"
+
+msgid "We will send you an email with the job information for later review."
+msgstr ""
+"Wir senden Ihnen eine E-Mail mit den Stelleninformationen zur späteren "
+"Ansicht."
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Website Demonstration"
+msgstr "Vorstellung der Website"
+
+msgid "Website Description"
+msgstr "Website-Beschreibung"
+
+msgid "Website Language"
+msgstr "Sprache der Website"
+
+msgid "Website Title"
+msgstr "Website-Titel"
+
+msgid "Website description"
+msgstr "Website-Beschreibung"
+
+msgid "Website language"
+msgstr "Sprache der Website"
+
+msgid "Website title"
+msgstr "Website-Titel"
+
+msgid "Where is the file?"
+msgstr "Wo ist die Datei?"
+
+msgid "Why do you reject this job?"
+msgstr "Warum lehnen Sie diese Stelle ab?"
+
+msgid "YOUR JOBS"
+msgstr "Ihre Stellen"
+
+msgid "Yay! You have completed the setup wizard. Your website is ready now!"
+msgstr ""
+"Juhu! Sie haben den Setup-Assistenten abgeschlossen. Ihre Website ist jetzt "
+"bereit!"
+
+msgid "You are an admin. Here you administrate."
+msgstr ""
+"Sie sind Administrator. Hier können Sie Administrationsarbeiten tätigen."
+
+msgid "You are now redirected back to the job posting page…"
+msgstr ""
+"Sie werden jetzt auf die Seite der Stellenausschreibung zurückgeleitet..."
+
+msgid "You are now redirected to your job page… "
+msgstr "Sie werden jetzt auf Ihre Stellenseite weitergeleitet..."
+
+msgid "You are registered and logged in successfully."
+msgstr "Sie haben sich erfolgreich registriert und eingeloggt."
+
+msgid ""
+"You can modify this text by clicking the edit button below or delete this "
+"box using the delete button"
+msgstr ""
+"Sie können diesen Text durch Anklicken des Bearbeiten-Buttons unten ändern, "
+"oder dieses Feld über den Löschen-Button löschen."
+
+msgid "You can only attach up to "
+msgstr "Sie können nur bis zu [Noun, pronoun, 2MB] anhängen"
+
+msgid "You can view the job"
+msgstr "Sie können die Stelle ansehen"
+
+msgid "You don't have permission to perform this action"
+msgstr "Sie haben keine Berechtigung, um diese Aktion durchzuführen"
+
+msgid "You have been logged in as <%= company %>!"
+msgstr "Sie haben sich erfolgreich als <%= company %> eingeloggt!"
+
+msgid ""
+"You have just installed Job Engine, we recommend you follow through our <a "
+"href='%s'>setup wizard</a> to set up the basic configuration for your "
+"website!"
+msgstr ""
+"Sie haben Job Engine soeben installiert. Wir empfehlen Ihnen, unseren <a "
+"href='%s'>Setup-Assistenten</a> zu befolgen, um die Basiskonfiguration für "
+"Ihre Website einzurichten!"
+
+msgid "You have logged in successfully"
+msgstr "Sie haben sich erfolgreich eingeloggt"
+
+msgid "You have no permission to perform this action"
+msgstr "Sie haben keine Erlaubnis, diese Aktion durchzuführen"
+
+msgid "You have not complete all required fields yet."
+msgstr "Sie haben noch nicht alle erforderlichen Felder ausgefüllt."
+
+msgid "You have saved this job for later review: %s"
+msgstr "Sie haben diese Stelle zur späteren Überprüfung gespeichert: %s"
+
+msgid "You need to finish the previous step first!"
+msgstr "Schließen Sie zunächst den vorherigen Schritt ab!"
+
+msgid "Your 2Checkout Secret Key "
+msgstr "Ihr 2Checkout-Geheimschlüssel"
+
+msgid "Your 2Checkout Seller ID "
+msgstr "Ihre 2Checkout-Händler-ID"
+
+msgid "Your Email"
+msgstr "Ihre E-Mail"
+
+msgid "Your Google Checkout Merchant ID "
+msgstr "Ihre Google Checkout-Händler-ID"
+
+msgid "Your Google Checkout Merchant Key "
+msgstr "Ihr Google Checkout-Händlerschlüssel"
+
+msgid "Your Jobs"
+msgstr "Ihre Stellen"
+
+msgid "Your Name"
+msgstr "Ihr Name"
+
+msgid "Your Website"
+msgstr "Ihre Website"
+
+msgid "Your email address is invalid!"
+msgstr "Ihre E-Mail-Adresse ist ungültig!"
+
+msgid "Your job %s posted in %s has been archived!"
+msgstr "Ihre in %s angelegte Stelle %s wurde archiviert!"
+
+msgid "Your job has been rejected"
+msgstr "Ihre Stelle wurde abgelehnt"
+
+msgid "Your job has been saved successfully!"
+msgstr "Ihre Stelle wurde erfolgreich gespeichert!"
+
+msgid "Your job has been submitted successfully!"
+msgstr "Ihre Stelle wurde erfolgreich übermittelt!"
+
+msgid "Your job will be displayed as %s, on top of other jobs for %d day."
+msgstr "Ihre Stelle wird als %s angezeigt, über anderen Stellen für %d Tage."
+
+msgid "Your job will be displayed as %s, on top of other jobs for %d days."
+msgstr "Ihre Stelle wird als %s angezeigt, über anderen Stellen für %d Tage."
+
+msgid "Your job “%s” posted in %s has been approved!"
+msgstr "Ihre in %s angelegte Stelle “%s” wurde genehmigt!"
+
+msgid "Your login information was incorrect. Please try again."
+msgstr "Ihre Login-Informationen waren falsch. Bitte versuchen Sie es erneut."
+
+msgid ""
+"Your logo should be in PNG, GIF or JPG format, within 150x50px  and less "
+"than 200Kb"
+msgstr ""
+"Ihr Logo sollte das PNG-, GIF- oder JPG-Format haben, nicht größer als "
+"150x50px sein und kleiner als 200KB."
+
+msgid ""
+"Your logo should be in PNG, GIF or JPG format, within 150x50px  and less "
+"than 200Kb "
+msgstr ""
+"Ihr Logo sollte das PNG-, GIF- oder JPG-Format haben, nicht größer als "
+"150x50px sein und kleiner als 200KB."
+
+msgid "Your new password cannot be empty."
+msgstr "Ihr neues Passwort darf nicht leer sein."
+
+msgid "Your password has been changed successfully!"
+msgstr "Ihr Passwort wurde erfolgreich geändert!"
+
+msgid "Your password has been changed, please log in again"
+msgstr "Ihr Passwort wurde geändert, bitte loggen Sie sich wieder ein."
+
+msgid "Your password was changed! Please login again!"
+msgstr "Ihr Passwort wurde geändert! Bitte melden Sie sich neu an!"
+
+msgid "Your passwords doesn't match!"
+msgstr "Ihre Passwörter stimmen nicht überein!"
+
+msgid "Your submission has been sent to the employer. Good luck!"
+msgstr "Ihre Einsendung wurde an den Arbeitgeber gesendet. Viel Glück!"
+
+msgid "Your username must not contains special characters"
+msgstr "Ihr Benutzername darf keine Sonderzeichen enthalten"
+
+msgid "Zero size file downloaded"
+msgstr "Datei mit Größe von null heruntergeladen"
+
+msgid "[%s] Password Reset"
+msgstr "[%s] Passwort zurückgesetzt"
+
+msgid "activate link is require for user to renew their pass"
+msgstr ""
+"Der Aktivierungslink wird von Benutzern benötigt, um ihr Passwort zu erneuern"
+
+msgid "all time"
+msgstr "seit Beginn"
+
+msgid "are nice people who post jobs on your website"
+msgstr "sind nette Leute, die Stellen auf Ihrer Website veröffentlichen"
+
+msgid "at"
+msgstr "bei"
+
+msgid "company name, user dashboard url "
+msgstr "Firmenname, URL des Benutzer-Dashboards"
+
+msgid "days"
+msgstr "Tage"
+
+msgid "featured"
+msgstr "vorgestellt"
+
+msgid "here"
+msgstr "hier"
+
+msgid "job infomation and detail"
+msgstr "Stelleninformationen und -details"
+
+msgid "job seeker note send to company when they submit an application"
+msgstr ""
+"Hinweis von Arbeitssuchenden, der beim Übermitteln einer Bewerbung an die "
+"Firma gesendet wird"
+
+msgid "last days"
+msgstr "in den letzten Tagen"
+
+msgid "latest 15 days"
+msgstr "in den letzten 15 Tagen"
+
+msgid "latest 30 days"
+msgstr "in den letzten 30 Tagen"
+
+msgid "latest 7 days"
+msgstr "in den letzten 7 Tagen"
+
+msgid "no items found"
+msgstr "keine Elemente gefunden"
+
+msgid "normal"
+msgstr "normal"
+
+msgid "pending jobs"
+msgstr "ausstehende Stellen"
+
+msgid "reason when you reject a job "
+msgstr "Grund, wenn Sie eine Stelle ablehnen"
+
+msgid "reminder info "
+msgstr "Erinnerungs-Informationen"
+
+msgid "return to home"
+msgstr "zur Startseite zurückkehren"
+
+msgid "user's details you want to send mail"
+msgstr "Details des Benutzers, an den Sie eine Mail senden möchten"
+
+msgid "what happened in"
+msgstr "was passierte"
+
+msgid ""
+"<p>Dear [display_name],</p><p>Your job offer [job_title] posted in "
+"[blogname] has a new application.</p><p>Here are the applicant's information:"
+"</p><ol><li>Name: &nbsp;[seeker_name]</li><li>Email address: [seeker_mail]</"
+"li><li>Note: [seeker_note]</li></ol><p>The files of the applicant are also "
+"attached in this email.</p><p>And here is the link to you job offer: "
+"[job_link].</p><p>Sincerely,<br />[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>für das von Ihnen in [blogname] "
+"veröffentlichte Stellenangebot [job_title] ist eine neue Bewerbung "
+"eingegangen.</p><p>Die Informationen des Bewerbers sind wie folgt:</"
+"p><ol><li>Name: [seeker_name]</li><li>E-Mail-Adresse: [seeker_mail]</"
+"li><li>Anmerkung: [seeker_note]</li></ol><p>Die Dateien dieses Bewerbers "
+"sind auch an diese E-Mail angehängt.</p><p>Und hier ist der Link zu Ihrem "
+"Stellenangebot in [blogname]: [job_link].</p><p>Viele Grüße<br />[blogname]</"
+"p>"
+
+msgid ""
+"<p>Hello [display_name],</p><p>You have just sent a request for recover the "
+"password associated with your account in [blogname]. If you did not make "
+"this request, please ignore this email address; otherwise, click the link "
+"below to create your new password:</p><p>[activate_url]</p><p>Regards,<br />"
+"[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Sie haben soeben eine Anfrage zur Passwort-"
+"Wiederherstellung in [blogname] gesendet. Wenn es sich dabei nicht um Ihre "
+"Anfrage handelt, ignorieren Sie diese E-Mail. Klicken Sie andernfalls bitte "
+"auf die folgende URL, um Ihr neues Passwort zu erstellen:</p><p>"
+"[activate_url]</p><p>Viele Grüße<br />[blogname]</p>"
+
+msgid ""
+"<p>Hello [display_name],</p><p>You have successfully changed your password. "
+"Click this link&nbsp;[site_url] to login to your [blogname]'s account.</"
+"p><p>Sincerely,<br />[blogname]</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Sie haben soeben Ihr Passwort erfolgreich "
+"geändert. Sie können sich jetzt auf unserer Website auf [site_url] anmelden."
+"</p><p><span>Viele Grüße<br /></span>[blogname]</p>"
+
+msgid ""
+"<p>Hello [display_name],</p><p>You have successfully registered an account "
+"with&nbsp;&nbsp;[blogname].&nbsp;Here is your account information:</"
+"p><ol><li>Username: [user_login]</li><li>Email: [user_email]</li></"
+"ol><p>Thanks and welcome you to [blogname]&nbsp;</p>"
+msgstr ""
+"<p>Hallo [display_name],</p><p>Sie haben erfolgreich ein Konto auf "
+"[blogname] erstellt.</p><p>Ihre Kontoinformationen:</p><ol><li>Benutzername: "
+"[user_login]</li><li>E-Mail: [user_email]</li></ol><p>Danke und willkommen "
+"bei [blogname].</p>"
+
+msgid ""
+"<p>Your job has been submitted to our website.</p><p>Please send your "
+"payment to account number: XXXX. After the payment has been verified, your "
+"job will be active in our website.</p>"
+msgstr ""
+"<p>Ihre Stelle wurde an unsere Website übermittelt.</p><p>Bitte senden Sie "
+"Ihre Zahlung an die Kontonummer: XXXX. Nachdem die Zahlung verifiziert "
+"wurde, wird Ihre Stelle auf unserer Website aktiviert.</p>"
+
+msgid ""
+"<span class=\"msg\">A reminder about this job has been sent to your email. "
+"Good luck!</span>"
+msgstr ""
+"<span><strong>Glückwunsch!</strong></span><br /><span class=\"msg\">Es wurde "
+"eine Erinnerung für diese Stelle gesendet. Viel Glück!</span>"
+
+msgid "Add a text widget +"
+msgstr "Weitere hinzufügen +"
+
+msgid ""
+"Enabling this will allow you to test payment without charging your account."
+msgstr ""
+"Durch die Aktivierung können Sie die Zahlung testen, ohne eine Einzahlung "
+"auf Ihr Konto zu tätigen."
+
+msgid "Hooray! there is no pending jobs."
+msgstr "Juhu, es gibt keine ausstehenden Stellen."
+
+msgid ""
+"Insert our sample data to see how your website works. We highly recommend "
+"only using this function when your have not posted your own data yet"
+msgstr ""
+"Fügen Sie unsere Beispieldaten ein, um zu sehen, wie Ihre Website "
+"funktioniert. Es wird dringend empfohlen, diese Funktion nur zu nutzen, wenn "
+"Ihre eigenen Daten noch nicht veröffentlicht wurden."
+
+msgid "View all Companies"
+msgstr "Alle Firmen anzeigen"
+
+msgid "View all Payments"
+msgstr "Alle Zahlungen anzeigen"
