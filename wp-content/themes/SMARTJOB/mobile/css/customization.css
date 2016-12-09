@@ -1,0 +1,30 @@
+.ui-header,
+.page-resume .job-navbar li .ui-btn.ui-btn-active .ui-btn-inner {
+  background: #263E57;
+}
+.ui-header .ui-btn-s {
+  background: #3d648c;
+  -webkit-box-shadow: 0 1px 2px #2e4b69;
+  -moz-box-shadow: 0 1px 2px #2e4b69;
+  box-shadow: 0 1px 2px #2e4b69;
+}
+.ui-header .ui-btn-s:hover {
+  background: #45719e;
+}
+.arrow-left {
+  border-right: 6px solid #3d648c;
+}
+.ui-header .ui-btn-s:hover .arrow-left {
+  border-right: 6px solid #45719e;
+}
+.page-resume .job-navbar li a.ui-btn.ui-btn-active {
+  -webkit-box-shadow: -3px 2px 3px #070b10;
+  -moz-box-shadow: -3px 2px 3px #070b10;
+  box-shadow: -3px 2px 3px #070b10;
+}
+body,
+.tinymce-style,
+.content-text p {
+  font-family: Helvetica, san-serif;
+  font-size: 12px;
+}

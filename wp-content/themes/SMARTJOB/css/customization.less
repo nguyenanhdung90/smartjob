@@ -1,0 +1,490 @@
+/* import google font */
+/*************************/
+/****** color style ******/
+/*************************/
+@hyperlink : @action;
+.border(@color) when (lightness(@color) >= 50%) {  
+	border-color: darken(@color, 10%);
+}
+
+.border(@color) when (lightness(@color) < 50%) {  
+	border-color: lighten(@color, 10%);
+}
+
+.fontcolor(@background, @colorDark : #333333, @colorWhite : #eeeeee) when (lightness(@background) >= 80%){
+	color: @colorDark;
+	//color: @background - 104;
+}
+.fontcolor(@background, @colorDark : #333333, @colorWhite : #eeeeee) when (lightness(@background) < 80%){ 
+	color: @colorWhite; 
+}
+
+.copy(@background, @colorDark : #333333, @colorWhite : #eeeeee) when (lightness(@background) >= 80%){
+	color: overlay( @background, #000000 );
+	//color: @background - 104;
+}
+.copy(@background, @colorDark : #333333, @colorWhite : #eeeeee) when (lightness(@background) < 80%){ 
+	color: hardlight(@background, #ffffff);
+}
+/*
+.editing(@background, @colorDark : #333333, @colorWhite : #eeeeee) when (lightness(@background) >= 80%){
+	background: @background - 40 !important;
+}
+.editing(@background, @colorDark : #333333, @colorWhite : #eeeeee) when (lightness(@background) < 80%){ 
+	background: @background + 40 !important; 
+}
+
+.module.editing {
+	.editing(@background, #333333, #eeeeee);
+}
+
+
+
+
+*/
+// .textshadow(@background) when (lightness(@background) >= 50%){ 
+// 	text-shadow: 1px 0 0 #cccccc; 
+// }
+// .textshadow(@background) when (lightness(@background) >= 50%){ 
+// 	text-shadow: 1px 0 0 #151515; 
+// }
+
+/**********************************************/
+/*** 		BACKGROUNG @background 			***/
+/**********************************************/
+
+.bg-pattern(@pattern){
+	background-color: @background;
+	background-image: url(~"@{pattern}");
+	background-repeat: repeat;
+}
+
+body, .wrapper {
+	.bg-pattern(@pattern)
+}
+
+.bg-foot(@footer){
+	@light_footer : darken(@footer, 3%);
+	background: @footer;
+	background: -moz-linear-gradient(top, @light_footer 0%,  @footer 15%,  @footer 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@light_footer), color-stop(15%,@footer), color-stop(100%,@footer));
+	background: -webkit-linear-gradient(top, @light_footer 0%,@footer 15%,@footer 100%);
+	background: -o-linear-gradient(top, @light_footer 0%,@footer 15%,@footer 100%);
+	background: -ms-linear-gradient(top, @light_footer 0%,@footer 15%,@footer 100%);
+	background: linear-gradient(top, @light_footer 0%,@footer 15%,@footer 100%);
+}
+
+footer, .bg-footer{
+	.bg-foot(@footer);
+	.fontcolor(@footer, #999999, #eeeeee);
+}
+
+footer .copyright {
+	.copy (@footer, #999999, #eeeeee);
+}
+
+footer .menu-bottom a{
+	.fontcolor(@footer, #999999, #eeeeee);	
+}
+
+.header-second, .header-filter {
+	.border(@background);	
+	background-color: darken(@background, 5%);
+}
+
+.main-title, 
+.widget-title, 
+.account-title, 
+.form-account .line-hr {
+	border-bottom: 1px solid darken(@background, 10%);
+}
+
+.companies-statis div.first {
+	border-bottom: 1px solid darken(@background, 10%);
+}
+
+.entry-blog .comments #respond h3.reply-title,
+.entry-blog .comments .comment-list li {
+	border-bottom: 1px solid darken(@background, 5%);
+}
+
+.entry-blog h3.title{
+	border-bottom: 1px solid darken(@background, 5%);
+	border-top: 1px solid darken(@background, 5%);
+}
+
+.heading-info .heading-map{
+	border: 1px solid darken(@background, 10%);
+}
+
+.heading-info .sharing ul li, 
+.heading-info .sharing ul li:first-child{
+	border-color: darken(@background, 6%);
+}
+
+.btn-background {
+	background: darken(@background, 2%);
+	background: -moz-linear-gradient(top, darken(@background, 0%) 0%, darken(@background, 1%) 10%, darken(@background, 3%) 88%, darken(@background, 8%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, darken(@background, 0%)), color-stop(10%, darken(@background, 1%)), color-stop(88%, darken(@background, 3%)), color-stop(100%, darken(@background, 8%)));
+	background: -webkit-linear-gradient(top, darken(@background, 0%) 0%, darken(@background, 1%) 10%, darken(@background, 3%) 88%, darken(@background, 8%) 100%);
+	background: -o-linear-gradient(top, darken(@background, 0%) 0%, darken(@background, 1%) 10%, darken(@background, 3%) 88%, darken(@background, 8%) 100%);
+	background: -ms-linear-gradient(top, darken(@background, 0%) 0%, darken(@background, 1%) 10%, darken(@background, 3%) 88%, darken(@background, 8%) 100%);
+	background: linear-gradient(top, darken(@background, 0%) 0%, darken(@background, 1%) 10%, darken(@background, 3%) 88%, darken(@background, 8%) 100%);
+	
+	border: 1px solid darken(@background, 12%);
+	/* color: darken(@background, 50%); */
+	.fontcolor(@background, darken(@background, 50%), lighten(@background, 70%));
+}
+
+.btn-background:hover {
+	border: 1px solid darken(@background, 12%);
+	background: darken(@background, 5%);
+	background: -moz-linear-gradient(top, darken(@background, 1%) 0%, darken(@background, 2%) 10%, darken(@background, 5%) 88%, darken(@background, 10%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, darken(@background, 1%)), color-stop(10%, darken(@background, 1%)), color-stop(88%, darken(@background, 3%)), color-stop(100%, darken(@background, 10%)));
+	background: -webkit-linear-gradient(top, darken(@background, 1%) 0%, darken(@background, 2%) 10%, darken(@background, 5%) 88%, darken(@background, 10%) 100%);
+	background: -o-linear-gradient(top, darken(@background, 1%) 0%, darken(@background, 2%) 10%, darken(@background, 5%) 88%, darken(@background, 10%) 100%);
+	background: -ms-linear-gradient(top, darken(@background, 1%) 0%, darken(@background, 2%) 10%, darken(@background, 5%) 88%, darken(@background, 10%) 100%);
+	background: linear-gradient(top, darken(@background, 1%) 0%, darken(@background, 2%) 10%, darken(@background, 5%) 88%, darken(@background, 10%) 100%);
+}
+
+.btn-background:active {
+	background: darken(@background, 10%);
+	background: -moz-linear-gradient(top, darken(@background, 10%) 0%, darken(@background, 3%) 12%, darken(@background, 1%) 90%, darken(@background, 0%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, darken(@background, 10%)), color-stop(12%, darken(@background, 3%)), color-stop(90%, darken(@background, 1%)), color-stop(100%, darken(@background, 0%)));
+	background: -webkit-linear-gradient(top, darken(@background, 10%) 0%, darken(@background, 3%) 12%, darken(@background, 1%) 90%, darken(@background, 0%) 100%);
+	background: -o-linear-gradient(top, darken(@background, 10%) 0%, darken(@background, 3%) 12%, darken(@background, 1%) 90%, darken(@background, 0%) 100%);
+	background: -ms-linear-gradient(top, darken(@background, 10%) 0%, darken(@background, 3%) 12%, darken(@background, 1%) 90%, darken(@background, 0%) 100%);
+	background: linear-gradient(top, darken(@background, 10%) 0%, darken(@background, 3%) 12%, darken(@background, 1%) 90%, darken(@background, 0%) 100%);
+}
+
+.widget_search input#s,
+.input-search-box {
+	background: @background;
+	box-shadow: inset 0 1px 2px darken(@background, 15%);
+	-moz-box-shadow: inset 0 1px 2px darken(@background, 15%);
+	-webkit-box-shadow: inset 0 1px 2px darken(@background, 15%);
+	.border( darken(@background, 10%) );
+	border-width: 1px;
+	border-style: solid;
+}
+
+.heading {
+	border-color: darken(@background, 10%) ;
+}
+
+
+
+.jse-signup-profile .module .title .btn-edit a , .jse-profile .setting-profile ,  .jse-profile .toggle-edit{
+	color : darken(@background, 30%) !important;
+}
+
+.jse-signup-profile .module .title {
+	border-color: darken(@background, 8%) !important;
+}
+.jse-signup-profile .module .edu-module .item .line{
+	border-color: darken(@background, 12%) !important;
+}
+.jse-signup-profile .module .edu-module .item .dot {
+	background-color : darken(@background, 12%) !important;
+}
+
+.edu-form {
+	border-color: darken(@background, 5%) !important;
+}
+
+.jse-signup-profile .module .edu-module .item .content {
+	color : darken(@background, 12%) !important;
+}
+
+.heading-info, 
+.bg-job-frame, 
+.bg-grey-widget,   {
+    background-color: darken(@background, 2%);
+	box-shadow: inset 0 1px 6px -2px darken(@background, 15%);
+}
+.jse-signup-profile .module.editing , .authorized .jse-signup-profile .module-edit:hover {
+	background-color: darken(@background, 1%) !important ;
+}
+
+.jquery-sort-column > ul > li .title, 
+ul.list-company > li .title {
+	border-bottom: 1px solid darken(@background, 10%);
+}
+
+.heading-info,
+ul.list-company ul li, 
+.jquery-sort-column > ul ul li,
+.main-column .list-jobs li, 
+.entry-blog > li, 
+.job-account-list li {
+	border-bottom: 1px solid darken(@background, 5%);
+}
+
+.job-account-list li .control {
+	border-left: 1px solid darken(@background, 5%);	
+}
+
+.widget-area .company-profile .info, 
+.entry-blog .comments li .thumb, 
+.entry-blog .comments li .children li {
+	border-top: 1px solid darken(@background, 7%);
+}
+
+.widget ul li a {
+    border-bottom: 1px solid darken(@background, 5%) !important;
+}
+
+/**********************************************/
+/***	 		HEADER @header 				***/
+/**********************************************/
+.bg-main-header {
+	background: lighten(@header, 2%);
+	background: -moz-linear-gradient(top, lighten(@header, 8%) 0%, lighten(@header, 2%) 90%, lighten(@header, 0%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lighten(@header, 8%)), color-stop(90%, lighten(@header, 2%)), color-stop(100%, lighten(@header, 0%)));
+	background: -webkit-linear-gradient(top, lighten(@header, 8%) 0%, lighten(@header, 2%) 90%, lighten(@header, 0%) 100%);
+	background: -o-linear-gradient(top, lighten(@header, 8%) 0%, lighten(@header, 2%) 90%, lighten(@header, 0%) 100%);
+	background: -ms-linear-gradient(top, lighten(@header, 8%) 0%, lighten(@header, 2%) 90%, lighten(@header, 0%) 100%);
+	background: linear-gradient(top, lighten(@header, 8%) 0%, lighten(@header, 2%) 90%, lighten(@header, 0%) 100%);
+}
+
+.category .menu-header-top li > a,
+.bg-btn-header {
+	background: lighten(@header, 10%);
+	background: -moz-linear-gradient(top, lighten(@header, 13%) 0%, lighten(@header, 10%) 85%, lighten(@header, 5%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lighten(@header, 13%)), color-stop(85%, lighten(@header, 10%)), color-stop(100%, lighten(@header, 5%)));
+	background: -webkit-linear-gradient(top, lighten(@header, 13%) 0%, lighten(@header, 10%) 85%, lighten(@header, 5%) 100%);
+	background: -o-linear-gradient(top, lighten(@header, 13%) 0%, lighten(@header, 10%) 85%, lighten(@header, 5%) 100%);
+	background: -ms-linear-gradient(top, lighten(@header, 13%) 0%, lighten(@header, 10%) 85%, lighten(@header, 5%) 100%);
+	background: linear-gradient(top, lighten(@header, 13%) 0%, lighten(@header, 10%) 85%, lighten(@header, 5%) 100%);
+
+	box-shadow: 0 1px 2px darken(@header, 2%);
+	-moz-box-shadow: 0 1px 2px darken(@header, 2%);
+	-webkit-box-shadow: 0 1px 2px darken(@header, 2%);	
+}
+
+.current-menu-item .bg-btn-header, 
+.category .menu-header-top .current-menu-item a, 
+.account .menu-header-top .selected a, 
+.bg-btn-header:active {
+	background: darken(@header, 10%) !important;
+	background: -moz-linear-gradient(top, darken(@header, 2%) 0%, darken(@header, 10%) 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, darken(@header, 2%)), color-stop(100%, darken(@header, 10%))) !important;
+	background: -webkit-linear-gradient(top, darken(@header, 2%) 0%, darken(@header, 10%) 100%) !important; 
+	background: -o-linear-gradient(top, darken(@header, 2%) 0%, darken(@header, 10%) 100%) !important;
+	background: -ms-linear-gradient(top, darken(@header, 2%) 0%, darken(@header, 10%) 100%) !important;
+	background: linear-gradient(top, darken(@header, 2%) 0%, darken(@header, 10%) 100%) !important;
+
+	box-shadow: inset 0 2px 3px darken(@header, 10%);
+	-moz-box-shadow: inset 0 2px 3px darken(@header, 10%);
+	-webkit-box-shadow: inset 0 2px 3px darken(@header, 10%);
+}
+
+.header-technical .ver-line {
+	background-color: darken(@header, 1%);
+}
+
+.main-header .slogan{
+	.fontcolor(@header);
+	text-shadow: 1px 0 0 darken(@header, 10%);
+}
+
+/**********************************************/
+/***		 Body Color @text 				***/
+/**********************************************/
+body, .tinymce-style {
+	color: @text;
+}
+
+.breadcrumb a, .breadcrumb span {
+	color: @text;
+}
+
+.tinymce-style h1,
+.tinymce-style h2,
+.tinymce-style h3,
+.tinymce-style h4,
+.tinymce-style h5,
+.tinymce-style h6,
+.job-detail .description h6 {
+	color: darken(@text, 5%);
+}
+
+.heading-info .info .name,
+.widget .widget-title, 
+.heading h1.title {
+	color: darken(@text, 10%);
+}
+
+.widget ul.category-lists li a, 
+.tinymce-style .description {
+	color: @text;
+}
+
+.widget-select ul li a.active, 
+.widget-select ul li a:hover {
+	border-color: @text;
+}
+
+.heading-info .viewcount,
+.heading-info .date,
+.heading-info .date:before, 
+.widget ul.category-lists li a span {
+	color: lighten(@text, 25%);	
+}
+
+.heading-info .job-location:before, 
+.heading-info .job-location,
+.main-column .list-jobs li .desc > div, 
+.main-column .list-jobs li .desc > div a {
+	color: lighten(@text, 15%);		
+}
+
+.list-alphabet li a {
+	color: lighten(@text, 20%);		
+}
+
+.jobseeker .account-title a {
+	color: lighten(@text, 20%);			
+}
+
+.jobseeker .account-title .menu a {
+	color: @text;
+}
+
+/**********************************************/
+/*** 		Action Color @action 			***/
+/**********************************************/
+.entry-blog #respond input[type="submit"],
+.bg-btn-action {
+	background: lighten(@action, 2%);
+	background: -moz-linear-gradient(top, lighten(@action, 8%) 0%, lighten(@action, 2%) 90%, lighten(@action, 0%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lighten(@action, 8%)), color-stop(90%, lighten(@action, 2%)), color-stop(100%, lighten(@action, 0%)));
+	background: -webkit-linear-gradient(top, lighten(@action, 8%) 0%, lighten(@action, 2%) 90%, lighten(@action, 0%) 100%);
+	background: -o-linear-gradient(top, lighten(@action, 8%) 0%, lighten(@action, 2%) 90%, lighten(@action, 0%) 100%);
+	background: -ms-linear-gradient(top, lighten(@action, 8%) 0%, lighten(@action, 2%) 90%, lighten(@action, 0%) 100%);
+	background: linear-gradient(top, lighten(@action, 8%) 0%, lighten(@action, 2%) 90%, lighten(@action, 0%) 100%);
+
+	font-family: "Quicksand";
+	/*text-transform: uppercase;*/
+	.fontcolor(@action) !important;
+}
+
+.entry-blog #respond input[type="submit"]:hover,
+.bg-btn-action:hover {
+	background: lighten(@action, 5%);
+	background: -moz-linear-gradient(top, lighten(@action, 10%) 0%, lighten(@action, 5%) 90%, lighten(@action, 0%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lighten(@action, 10%)), color-stop(90%, lighten(@action, 5%)), color-stop(100%, lighten(@action, 0%)));
+	background: -webkit-linear-gradient(top, lighten(@action, 10%) 0%, lighten(@action, 2%) 90%, lighten(@action, 0%) 100%);
+	background: -o-linear-gradient(top, lighten(@action, 10%) 0%, lighten(@action, 5%) 90%, lighten(@action, 0%) 100%);
+	background: -ms-linear-gradient(top, lighten(@action, 10%) 0%, lighten(@action, 5%) 90%, lighten(@action, 0%) 100%);
+	background: linear-gradient(top, lighten(@action, 10%) 0%, lighten(@action, 5%) 90%, lighten(@action, 0%) 100%);
+}
+
+.entry-blog #respond input[type="submit"]:active,
+.bg-btn-action:active {
+	background: lighten(@action, 0%);
+	background: -moz-linear-gradient(top, lighten(@action, 0%) 0%, lighten(@action, 2%) 10%, lighten(@action, 8%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lighten(@action, 0%)), color-stop(10%, lighten(@action, 2%)), color-stop(100%, lighten(@action, 8%)));
+	background: -webkit-linear-gradient(top, lighten(@action, 0%) 0%, lighten(@action, 2%) 10%, lighten(@action, 8%) 100%);
+	background: -o-linear-gradient(top, lighten(@action, 0%) 0%, lighten(@action, 2%) 10%, lighten(@action, 8%) 100%);
+	background: -ms-linear-gradient(top, lighten(@action, 0%) 0%, lighten(@action, 2%) 10%, lighten(@action, 8%) 100%);
+	background: linear-gradient(top, lighten(@action, 0%) 0%, lighten(@action, 2%) 10%, lighten(@action, 8%) 100%);
+}
+
+.bg-btn-action span {
+	color: #eee;
+}
+
+.widget_calendar table td#today,
+.widget_calendar table td a,
+.entry-blog .content .footer a, 
+.entry-blog .content .header a.comment,
+.heading .technical a {
+	color: @action;
+}
+
+.color-action {
+	color: @action;
+}
+
+/**********************************************/
+/***	 		Hyperlink Color 			***/
+/**********************************************/
+.main-column a, 
+.main-column a:visited, 
+.widget a, 
+.widget a:visited {
+	color: @hyperlink;
+}
+
+.list-alphabet li.active a {
+	color: @hyperlink;	
+}
+
+.modal-job .footer .forgot-pass-link {
+	color: @hyperlink;
+}
+
+.bg-btn-hyperlink {
+	background: lighten(@hyperlink, 2%);
+	background: -moz-linear-gradient(top, lighten(@hyperlink, 8%) 0%, lighten(@hyperlink, 2%) 90%, lighten(@hyperlink, 0%) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lighten(@hyperlink, 8%)), color-stop(90%, lighten(@hyperlink, 2%)), color-stop(100%, lighten(@hyperlink, 0%)));
+	background: -webkit-linear-gradient(top, lighten(@hyperlink, 8%) 0%, lighten(@hyperlink, 2%) 90%, lighten(@hyperlink, 0%) 100%);
+	background: -o-linear-gradient(top, lighten(@hyperlink, 8%) 0%, lighten(@hyperlink, 2%) 90%, lighten(@hyperlink, 0%) 100%);
+	background: -ms-linear-gradient(top, lighten(@hyperlink, 8%) 0%, lighten(@hyperlink, 2%) 90%, lighten(@hyperlink, 0%) 100%);
+	background: linear-gradient(top, lighten(@hyperlink, 8%) 0%, lighten(@hyperlink, 2%) 90%, lighten(@hyperlink, 0%) 100%);
+}
+
+.post-a-job .step ul li.selected {
+	background: lighten(@hyperlink, 40%);
+}
+
+.selected .btn-select button {
+	background: lighten(@hyperlink, 15%);
+	color: @hyperlink;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+// select style color
+::-moz-selection { background: lighten(@hyperlink, 10%); color: lighten(@hyperlink, 40%); text-shadow: none; }
+::selection { background: lighten(@hyperlink, 10%); color: lighten(@hyperlink, 40%); text-shadow: none; }
+
+/**********************************************/
+/*** 		Text Header Font 				***/
+/**********************************************/
+.heading h1.title {
+	font-size: @font-heading-size;
+	font-family: @font-heading;
+}
+
+.tinymce-style h1,
+.tinymce-style h2,
+.tinymce-style h3,
+.tinymce-style h4,
+.tinymce-style h5,
+.tinymce-style h6,
+.job-detail .description h6, 
+.main-title, 
+.widget .widget-title, 
+.headline {
+	font-family: @font-heading;
+	margin: 0 0 10px 0;
+}
+
+.modal-job .title-white h5{
+ 	font-family: @font-heading;
+}
+
+/**********************************************/
+/***		Body Text Font 					***/
+/**********************************************/
+body, .tinymce-style {
+	font-family: @font-text;
+	font-size: @font-text-size; 
+}
+
+a{
+	color: @action;
+}

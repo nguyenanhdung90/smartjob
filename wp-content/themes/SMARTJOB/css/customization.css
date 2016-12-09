@@ -1,0 +1,366 @@
+body,
+.wrapper {
+  background-color: white;
+  /*background-image: url(http://localhost/jobengine/wp-content/themes/jobengine/img/pattern1.png);*/
+  background-repeat: repeat;
+}
+footer,
+.bg-footer {
+  background: #020304;
+  background: -moz-linear-gradient(top,#000000 0%,#020304 15%,#020304 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#000000),color-stop(15%,#020304),color-stop(100%,#020304));
+  background: -webkit-linear-gradient(top,#000000 0%,#020304 15%,#020304 100%);
+  background: -o-linear-gradient(top,#000000 0%,#020304 15%,#020304 100%);
+  background: -ms-linear-gradient(top,#000000 0%,#020304 15%,#020304 100%);
+  background: linear-gradient(top,#000000 0%,#020304 15%,#020304 100%);
+  color: #eeeeee;
+}
+footer .copyright {
+  color: hardlight(#020304,#ffffff);
+}
+footer .menu-bottom a {
+  color: #eeeeee;
+}
+.header-second,
+.header-filter {
+  border-color: #e1e1e1;
+  background-color: #f5f5f5;
+}
+.main-title,
+.widget-title,
+.account-title,
+.form-account .line-hr {
+  border-bottom: 1px solid #e1e1e1;
+}
+.companies-statis div.first {
+  border-bottom: 1px solid #e1e1e1;
+}
+.entry-blog .comments #respond h3.reply-title,
+.entry-blog .comments .comment-list li {
+  border-bottom: 1px solid #ededed;
+}
+.entry-blog h3.title {
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+}
+.heading-info .heading-map {
+  border: 1px solid #e1e1e1;
+}
+.heading-info .sharing ul li,
+.heading-info .sharing ul li:first-child {
+  border-color: #ebebeb;
+}
+.btn-background {
+  background: #f5f5f5;
+  background: -moz-linear-gradient(top,#fafafa 0%,#f7f7f7 10%,#f2f2f2 88%,#e6e6e6 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fafafa),color-stop(10%,#f7f7f7),color-stop(88%,#f2f2f2),color-stop(100%,#e6e6e6));
+  background: -webkit-linear-gradient(top,#fafafa 0%,#f7f7f7 10%,#f2f2f2 88%,#e6e6e6 100%);
+  background: -o-linear-gradient(top,#fafafa 0%,#f7f7f7 10%,#f2f2f2 88%,#e6e6e6 100%);
+  background: -ms-linear-gradient(top,#fafafa 0%,#f7f7f7 10%,#f2f2f2 88%,#e6e6e6 100%);
+  background: linear-gradient(top,#fafafa 0%,#f7f7f7 10%,#f2f2f2 88%,#e6e6e6 100%);
+  border: 1px solid #dbdbdb;
+  color: #7b7b7b;
+}
+.btn-background:hover {
+  border: 1px solid #dbdbdb;
+  background: #ededed;
+  background: -moz-linear-gradient(top,#f7f7f7 0%,#f5f5f5 10%,#ededed 88%,#e1e1e1 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f7f7f7),color-stop(10%,#f7f7f7),color-stop(88%,#f2f2f2),color-stop(100%,#e1e1e1));
+  background: -webkit-linear-gradient(top,#f7f7f7 0%,#f5f5f5 10%,#ededed 88%,#e1e1e1 100%);
+  background: -o-linear-gradient(top,#f7f7f7 0%,#f5f5f5 10%,#ededed 88%,#e1e1e1 100%);
+  background: -ms-linear-gradient(top,#f7f7f7 0%,#f5f5f5 10%,#ededed 88%,#e1e1e1 100%);
+  background: linear-gradient(top,#f7f7f7 0%,#f5f5f5 10%,#ededed 88%,#e1e1e1 100%);
+}
+.btn-background:active {
+  background: #e1e1e1;
+  background: -moz-linear-gradient(top,#e1e1e1 0%,#f2f2f2 12%,#f7f7f7 90%,#fafafa 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#e1e1e1),color-stop(12%,#f2f2f2),color-stop(90%,#f7f7f7),color-stop(100%,#fafafa));
+  background: -webkit-linear-gradient(top,#e1e1e1 0%,#f2f2f2 12%,#f7f7f7 90%,#fafafa 100%);
+  background: -o-linear-gradient(top,#e1e1e1 0%,#f2f2f2 12%,#f7f7f7 90%,#fafafa 100%);
+  background: -ms-linear-gradient(top,#e1e1e1 0%,#f2f2f2 12%,#f7f7f7 90%,#fafafa 100%);
+  background: linear-gradient(top,#e1e1e1 0%,#f2f2f2 12%,#f7f7f7 90%,#fafafa 100%);
+}
+.widget_search input#s,
+.input-search-box {
+  background: #FAFAFA;
+  box-shadow: inset 0 1px 2px #d4d4d4;
+  -moz-box-shadow: inset 0 1px 2px #d4d4d4;
+  -webkit-box-shadow: inset 0 1px 2px #d4d4d4;
+  border-color: #c7c7c7;
+  border-width: 1px;
+  border-style: solid;
+}
+.heading {
+  border-color: #e1e1e1;
+}
+.jse-signup-profile .module .title .btn-edit a,
+.jse-profile .setting-profile,
+.jse-profile .toggle-edit {
+  color: #aeaeae !important;
+}
+.jse-signup-profile .module .title {
+  border-color: #e6e6e6 !important;
+}
+.jse-signup-profile .module .edu-module .item .line {
+  border-color: #dbdbdb !important;
+}
+.jse-signup-profile .module .edu-module .item .dot {
+  background-color: #dbdbdb !important;
+}
+.edu-form {
+  border-color: #ededed !important;
+}
+.jse-signup-profile .module .edu-module .item .content {
+  color: #dbdbdb !important;
+}
+.heading-info,
+.bg-job-frame,
+.bg-grey-widget {
+  background-color: #f5f5f5;
+  box-shadow: inset 0 1px 6px -2px #d4d4d4;
+}
+.jse-signup-profile .module.editing,
+.authorized .jse-signup-profile .module-edit:hover {
+  background-color: #f7f7f7 !important;
+}
+.jquery-sort-column > ul > li .title,
+ul.list-company > li .title {
+  border-bottom: 1px solid #e1e1e1;
+}
+.heading-info,
+ul.list-company ul li,
+.jquery-sort-column > ul ul li,
+.main-column .list-jobs li,
+.entry-blog > li,
+.job-account-list li {
+  border-bottom: 1px solid #ededed;
+}
+.job-account-list li .control {
+  border-left: 1px solid #ededed;
+}
+.widget-area .company-profile .info,
+.entry-blog .comments li .thumb,
+.entry-blog .comments li .children li {
+  border-top: 1px solid #e8e8e8;
+}
+.widget ul li a {
+  border-bottom: 1px solid #ededed ;
+}
+.miw-loop a:hover
+{
+	color:#2a4560;
+}
+.title > a:hover{color:#2a4560!important}
+.header.font-quicksand > a:hover{color:#2a4560!important}
+.bg-main-header {
+  background: #2A4560;
+  background: -moz-linear-gradient(top,#325273 0%,#2A4560 90%,#263e57 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#325273),color-stop(90%,#2A4560),color-stop(100%,#263e57));
+  background: -webkit-linear-gradient(top,#325273 0%,#2A4560 90%,#263e57 100%);
+  background: -o-linear-gradient(top,#325273 0%,#2A4560 90%,#263e57 100%);
+  background: -ms-linear-gradient(top,#325273 0%,#2A4560 90%,#263e57 100%);
+  background: linear-gradient(top,#325273 0%,#2A4560 90%,#263e57 100%);
+ 
+}
+.category .menu-header-top li > a,
+.bg-btn-header {
+  background: #36577a;
+  background: -moz-linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#3a5f85),color-stop(85%,#36577a),color-stop(100%,#2e4b69));
+  background: -webkit-linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  background: -o-linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  background: -ms-linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  background: linear-gradient(top,#3a5f85 0%,#36577a 85%,#2e4b69 100%);
+  box-shadow: 0 1px 2px #233950;
+  -moz-box-shadow: 0 1px 2px #233950;
+  -webkit-box-shadow: 0 1px 2px #233950;
+}
+.current-menu-item .bg-btn-header,
+.category .menu-header-top .current-menu-item a,
+.account .menu-header-top .selected a,
+.bg-btn-header:active {
+  background: #162534 !important;
+  background: -moz-linear-gradient(top,#2e4b69 0%,#162534 100%) !important;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2e4b69),color-stop(100%,#162534)) !important;
+  background: -webkit-linear-gradient(top,#2e4b69 0%,#162534 100%) !important;
+  background: -o-linear-gradient(top,#2e4b69 0%,#162534 100%) !important;
+  background: -ms-linear-gradient(top,#2e4b69 0%,#162534 100%) !important;
+  background: linear-gradient(top,#2e4b69 0%,#162534 100%) !important;
+  box-shadow: inset 0 2px 3px #162534;
+  -moz-box-shadow: inset 0 2px 3px #162534;
+  -webkit-box-shadow: inset 0 2px 3px #162534;
+  
+  rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #233950 0%, #162534 100%) repeat scroll 0 0 !important
+}
+.header-technical .ver-line {
+  background-color: #606063;
+}
+.main-header .slogan {
+  color: #eeeeee;
+  text-shadow: 1px 0 0 #162534;
+}
+body,
+.tinymce-style {
+  color: #221f20;
+}
+.breadcrumb a,
+.breadcrumb span {
+  color: #555555;
+}
+.tinymce-style h1,
+.tinymce-style h2,
+.tinymce-style h3,
+.tinymce-style h4,
+.tinymce-style h5,
+.tinymce-style h6,
+.job-detail .description h6 {
+  color: #484848;
+}
+.heading-info .info .name,
+.widget .widget-title,
+.heading h1.title {
+  color: #3c3c3c;
+}
+.widget ul.category-lists li a,
+.tinymce-style .description {
+  color: #221f20;
+}
+.widget-select ul li a.active,
+.widget-select ul li a:hover {
+  border-color: #555555;
+}
+.heading-info .viewcount,
+.heading-info .date,
+.heading-info .date:before,
+.widget ul.category-lists li a span {
+  color: #959595;
+}
+.heading-info .job-location:before,
+.heading-info .job-location,
+.main-column .list-jobs li .desc > div,
+.main-column .list-jobs li .desc > div a {
+  color: #7b7b7b;
+}
+.list-alphabet li a {
+  color: #221f20;
+}
+.jobseeker .account-title a {
+  color: #221f20;
+}
+.jobseeker .account-title .menu a {
+  color: #555555;
+}
+.entry-blog #respond input[type="submit"],
+.bg-btn-action {
+  background: #f0111b ;
+  background: -moz-linear-gradient(top,#f0111b  0%,#f0111b  90%,#f0111b  100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f0111b ),color-stop(90%,#f0111b ),color-stop(100%,#f0111b ));
+  background: -webkit-linear-gradient(top,#f0111b  0%,#f0111b  90%,#f0111b  100%);
+  background: -o-linear-gradient(top,#f0111b  0%,#f0111b  90%,#f0111b  100%);
+  background: -ms-linear-gradient(top,#f0111b  0%,#f0111b  90%,#f0111b  100%);
+  background: linear-gradient(top,#f0111b  0%,#f0111b  90%,#f0111b  100%);
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  color: #eeeeee !important;
+}
+.entry-blog #respond input[type="submit"]:hover,
+.bg-btn-action:hover {
+  background: #f0111b;
+  background: -moz-linear-gradient(top,#f0111b 0%,#f0111b 90%,#f0111b 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d97a75),color-stop(90%,#f0111b),color-stop(100%,#f0111b));
+  background: -webkit-linear-gradient(top,#f0111b 0%,#f0111b 90%,#f0111b 100%);
+  background: -o-linear-gradient(top,#f0111b 0%,#f0111b 90%,#f0111b 100%);
+  background: -ms-linear-gradient(top,#f0111b 0%,#f0111b 90%,#f0111b 100%);
+  background: linear-gradient(top,#f0111b 0%,#f0111b 90%,#f0111b 100%);
+}
+.entry-blog #respond input[type="submit"]:active,
+.bg-btn-action:active {
+  background: #f0111b;
+  background: -moz-linear-gradient(top,#f0111b 0%,#f0111b 10%,#f0111b 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ce534d),color-stop(10%,#f0111b),color-stop(100%,#f0111b));
+  background: -webkit-linear-gradient(top,#f0111b 0%,#f0111b 10%,#f0111b 100%);
+  background: -o-linear-gradient(top,#f0111b 0%,#f0111b 10%,#f0111b 100%);
+  background: -ms-linear-gradient(top,#f0111b 0%,#f0111b 10%,#f0111b 100%);
+  background: linear-gradient(top,#f0111b 0%,#f0111b 10%,#f0111b 100%);
+}
+.bg-btn-action span {
+  color: #eee;
+}
+.widget_calendar table td#today,
+.widget_calendar table td a,
+.entry-blog .content .footer a,
+.entry-blog .content .header a.comment,
+.heading .technical a {
+  color: #F0111B;
+}
+.color-action {
+  color: #CE534D;
+}
+/*.main-column a,
+.main-column a:visited,
+.widget a,
+.widget a:visited {
+  color: #CE534D;
+}*/
+.list-alphabet li.active a {
+  color: #f0111b;
+}
+.modal-job .footer .forgot-pass-link {
+  color: #CE534D;
+}
+.bg-btn-hyperlink {
+  background: #d05b55;
+  background: -moz-linear-gradient(top,#d7726d 0%,#d05b55 90%,#ce534d 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d7726d),color-stop(90%,#d05b55),color-stop(100%,#ce534d));
+  background: -webkit-linear-gradient(top,#d7726d 0%,#d05b55 90%,#ce534d 100%);
+  background: -o-linear-gradient(top,#d7726d 0%,#d05b55 90%,#ce534d 100%);
+  background: -ms-linear-gradient(top,#d7726d 0%,#d05b55 90%,#ce534d 100%);
+  background: linear-gradient(top,#d7726d 0%,#d05b55 90%,#ce534d 100%);
+}
+.post-a-job .step ul li.selected {
+  background: #faeeed;
+}
+.selected .btn-select button {
+  background: #df8d89;
+  color: #CE534D;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+::-moz-selection {
+  background: #d97a75;
+  color: #faeeed;
+  text-shadow: none;
+}
+::selection {
+  background: #d97a75;
+  color: #faeeed;
+  text-shadow: none;
+}
+.heading h1.title {
+  font-size: 22px;
+  font-family:"Roboto",Arial,Helvetica,sans-serif;
+}
+.tinymce-style h1,
+.tinymce-style h2,
+.tinymce-style h3,
+.tinymce-style h4,
+.tinymce-style h5,
+.tinymce-style h6,
+.job-detail .description h6,
+.main-title,
+.widget .widget-title,
+.headline {
+  font-family:"Roboto",Arial,Helvetica,sans-serif;
+  margin: 0 0 10px 0;
+}
+.modal-job .title-white h5 {
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+}
+body,
+.tinymce-style {
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  font-size: 15px;
+}
+a {
+  color: #666679;
+}

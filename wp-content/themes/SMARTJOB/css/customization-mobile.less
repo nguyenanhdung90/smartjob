@@ -1,0 +1,52 @@
+.box-shadow(@arguments) {
+  	-webkit-box-shadow: @arguments;
+  	-moz-box-shadow: @arguments;
+  	box-shadow: @arguments;
+}
+
+.mobile_header(@color , @percent) when (lightness(@color) >= 80%) {  
+	background: darken(@color, @percent);
+}
+
+.mobile_header(@color, @percent) when (lightness(@color) < 80%) {  
+	background: lighten(@color, @percent);
+}
+
+.ui-header, .page-resume .job-navbar li .ui-btn.ui-btn-active .ui-btn-inner {
+	background : @header;
+}
+
+
+.ui-header .ui-btn-s {
+	.mobile_header(@header, 15%);
+	.box-shadow (0 1px 2px lighten(@header, 5%));
+}
+
+.ui-header .ui-btn-s:hover {
+	.mobile_header(@header, 20%);
+}
+
+
+.border_right(@color , @percent) when (lightness(@color) >= 80%) {  
+	border-right: 6px solid darken(@color, @percent);
+}
+
+.border_right(@color, @percent) when (lightness(@color) < 80%) {  
+	border-right: 6px solid lighten(@color, @percent);
+}
+.arrow-left {
+	.border_right(@header,15% );
+}
+
+.ui-header .ui-btn-s:hover .arrow-left {
+	.border_right(@header, 20% );
+}
+
+.page-resume .job-navbar li a.ui-btn.ui-btn-active {
+	.box-shadow(-3px 2px 3px darken(@header, 20%))  ;
+}
+body, .tinymce-style,
+.content-text p {
+	font-family: @font-text;
+	font-size: @font-text-size; 
+}

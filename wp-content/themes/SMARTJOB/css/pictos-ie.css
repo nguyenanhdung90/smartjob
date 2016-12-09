@@ -1,0 +1,202 @@
+.icon:before {
+	display: none;
+}
+
+.icon { 
+	display: inline-block;
+	background: url("../img/pictos-ie.png");
+	padding: 0 !important;
+	height: 14px;
+	margin-top: 1px;
+}
+
+/*** action color ***/
+.icon[data-icon="p"] {
+	background-position: 0 0;
+	width: 13px;
+}
+
+.icon[data-icon="#"] {
+	background-position: -13px 0;
+	width: 11px;
+}
+
+.icon[data-icon="%"] {
+	background-position: -63px 0;
+	width: 14px;
+}
+
+.logout .icon[data-icon="Q"] {
+	background-position: -103px 0;
+	width: 13px;
+}
+
+.icon[data-icon="^"] {
+	background-position: -38px 0;
+	width: 12px;
+}
+
+.entry-blog .comment .icon[data-icon="q"] {
+	background: none;
+}
+
+.entry-blog .comment .icon[data-icon="q"]:before {
+	content: "";
+	display: inline-block;
+	background: url("../img/pictos-ie.png");
+	background-position: -77px 0;
+	width: 13px;
+	height: 14px;
+	margin-right: 3px;
+}
+
+.icon[data-icon="R"] {
+	background-position: -50px 0;
+	width: 13px;
+}
+
+.icon[data-icon="]"] {
+	background-position: -91px 0;
+	width: 13px;
+}
+
+/*** while, button color ****/
+.icon[data-icon="U"] {
+	background-position: -24px -14px;
+	width: 14px;
+}
+
+.icon[data-icon="Q"] {
+	background-position: -38px -14px;
+	width: 12px;
+}
+
+.icon[data-icon="W"] {
+	background-position: -64px -14px;
+	width: 15px;
+}
+
+.header-technical .post-job a span.icon {
+	padding: 0;
+	top: 12px;
+}
+
+.bg-btn-action .icon[data-icon="p"] {
+	background-position: 0 -14px;
+	width: 13px;
+}
+
+.bg-btn-action .icon[data-icon="#"] {
+	background-position: -13px -14px;
+	width: 11px;
+}
+
+.bg-btn-action span.icon {
+	margin-top: 3px;
+}
+
+/*** grey color ***/
+.icon[data-icon="o"] {
+	background-position: -27px -28px;
+	width: 13px;
+}
+
+.icon[data-icon="@"] {
+	background-position: -40px -26px;
+	width: 8px;
+	margin-top: -2px;
+}
+
+.icon[data-icon="s"] {
+	background-position: -13px -28px;
+	width: 13px;
+}
+
+.icon[data-icon="E"] {
+	background-position: -47px -28px;
+	width: 14px;
+}
+
+.icon[data-icon="1"] {
+	background-position: -88px -28px;
+	width: 11px;
+}
+
+.icon[data-icon="\\"] {
+	background-position: -21px -28px;
+	width: 13px;
+}
+
+.heading-info .job-location:before {
+	content: "";
+	display: inline-block;
+	background: url("../img/pictos-ie.png");
+	height: 14px;
+	width: 8px;
+	background-position: -40px -26px;
+}
+
+.heading-info .date:before {
+	content: "";
+	display: inline-block;
+	background: url("../img/pictos-ie.png");
+	height: 14px;
+	width: 13px;
+	background-position: -61px -28px;
+	margin-top: 2px;
+}
+
+.icon[data-icon="A"] {
+	background-position: -99px -28px;
+	width: 14px;
+}
+
+.account-content .icon[data-icon="p"],
+.btn-default .icon[data-icon="p"] {
+	background-position: 0 -28px;
+	width: 13px;
+}
+
+.account-content .icon[data-icon="#"] {
+	background-position: -126px -28px;
+	width: 11px;	
+}
+
+.icon[data-icon="D"] {
+	background-position: -74px -28px;
+	width: 14px;
+}
+
+.icon[data-icon="t"] {
+	background-position: -112px -28px;
+	width: 15px;
+}
+
+.btn-default span.icon {
+	top: 14px;
+}
+
+/*** special color ***/
+.icon[data-icon="3"] {
+	background-position: -13px -42px;
+	width: 13px;
+}
+
+.icon[data-icon="*"] {
+	background-position: -27px -42px;
+	width: 12px;
+}
+
+.icon[data-icon="2"] {
+	background-position: 0px -42px;
+	width: 14px;
+}
+
+.post-a-job .step .toggle-title span.icon {
+	margin-top: 3px;
+}
+
+.flag-feature .icon[data-icon="^"] {
+	background-position: -39px -42px;
+	width: 12px;
+}
